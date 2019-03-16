@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "../components/image"
-import "./accomodations.module.styl"
 
 const Accomodations = ({ reservationURL }) => (
   <section id="accomodations">
@@ -22,7 +21,7 @@ Accomodations.propTypes = {
 }
 
 Accomodations.defaultProps = {
-  reservationURL: `Anna & Jake's Wedding`,
+  reservationURL: `http://bit.do/annajakehotel`
 }
 
 export default Accomodations

@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "../components/image"
-import "./event.module.styl"
 
 const Event = () => (
   <section id="event">
