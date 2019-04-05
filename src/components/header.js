@@ -8,16 +8,16 @@ import "./header.module.styl"
 const Header = ({ siteTitle }) => (
   <header>
     <div id="poop">
-      <Image />
+      {/*<Image fixed={data.file.childImageSharp.fixed} />*/}
       <h1>{siteTitle}</h1>
     </div>
-    <nav>
+{/*    <nav>
       <Link to="/">The Event</Link>
       <Link to="#accomodations">Accomodations</Link>
       <Link to="#nyc">Our NYC Favorites</Link>
       <Link to="#registry">Registry</Link>
     </nav>
-  </header>
+*/}  </header>
 )
 
 Header.propTypes = {
@@ -29,3 +29,5 @@ Header.defaultProps = {
 }
 
 export default Header
+
+ 

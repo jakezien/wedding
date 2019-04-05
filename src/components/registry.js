@@ -3,11 +3,12 @@ import PropTypes from "prop-types"
 import React from "react"
 import Image from "../components/image"
 
-const Registry = (reservationURL) => (
+const Registry = ({urls}) => (
   <section id="registry">
     <h2>Registry</h2>
     <div class="left">
-      <p>Thanks for considering a gift! Your presence is plenty. But if you insist, we’ve registered at Crate and Barrel and Zola.</p>
+      <p>Your presence is plenty — but if you insist, we’ve registered via <a href={urls.zola} target="_blank">Zola.</a></p>
+      <p>Our shipping address, if you need it, is 80 Douglass Street, Brooklyn, New York, 11231.</p>
     </div>
     <div class="right">
       
@@ -16,13 +17,13 @@ const Registry = (reservationURL) => (
 )
 
 Registry.propTypes = {
-  storeURL: PropTypes.string,
-  zolaURL: PropTypes.string,
+  urls: PropTypes.object,
 }
 
 Registry.defaultProps = {
-  storeURL: `store`,
-  zolaURL: `zola`,
+  urls: {
+    zola: ''
+  }
 }
 
 export default Registry
