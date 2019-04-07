@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/components/header.module.styl"],"names":["module","exports","poop"],"mappings":"6EACAA,EAAAC,QAAA,CAAkBC,KAAA","file":"styles-ecb83e16c3fc1e01f936.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"poop\":\"header-module--poop--oIKL0\"};"],"sourceRoot":""}
