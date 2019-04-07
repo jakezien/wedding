@@ -14,7 +14,7 @@ import Registry from "../components/registry"
 const IndexPage = () => (
   <Layout>
     <SEO title="Anna and Jake's Wedding" keywords={[`Anna`, `Jake`, `Ewing`, `Zien`, `wedding`, `Brooklyn`, `Boathouse`]} />
-
+    
     <Event/>
     <Boathouse/>
     <Accomodations/>

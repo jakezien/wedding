@@ -2,22 +2,17 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "../components/image"
-import "./header.module.styl"
+import Container from "../components/Container"
+import styles from "./header.module.styl"
 
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div id="poop">
+    <Container className='fart' id="poop">
       {/*<Image fixed={data.file.childImageSharp.fixed} />*/}
       <h1>{siteTitle}</h1>
-    </div>
-{/*    <nav>
-      <Link to="/">The Event</Link>
-      <Link to="#accomodations">Accomodations</Link>
-      <Link to="#nyc">Our NYC Favorites</Link>
-      <Link to="#registry">Registry</Link>
-    </nav>
-*/}  </header>
+    </Container> 
+  </header>
 )
 
 Header.propTypes = {
