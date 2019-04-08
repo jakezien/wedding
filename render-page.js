@@ -117,8 +117,7 @@ var plugins = [{
     "start_url": "/",
     "background_color": "#663399",
     "theme_color": "#663399",
-    "display": "minimal-ui",
-    "icon": "src/images/gatsby-icon.png"
+    "display": "minimal-ui"
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -370,7 +369,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-page-2-js","jsonName":"page-2-fbc","path":"/page-2/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-image-js":2011440971,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-page-2-js","jsonName":"page-2-fbc","path":"/page-2/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-image-js":3138347921,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884}};
 
 /***/ }),
 
@@ -3278,17 +3277,6 @@ if (false) { var parent, cache, hot; } else {
 
 /***/ }),
 
-/***/ "./public/static/d/2011440971.json":
-/*!*****************************************!*\
-  !*** ./public/static/d/2011440971.json ***!
-  \*****************************************/
-/*! exports provided: data, default */
-/***/ (function(module) {
-
-module.exports = {"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAACYklEQVQ4y42Uy28SQRjA+dM8efDmwYN6qF6qiSY+Y/WgQRMibY00TaWNBSRSCraYQtHl/bR0KyxQWCgWWAqU8izl/Sq7rLNsRHlVJpvJtzPfb77nDIOcZHSoqZSrp4+KtXIziubaLRysMCZiCYqOoVnhjNEi8RcztdxxeTzc6VBfT+5O2Vhpb+vw4wMdZ0ppWvP9xzLeJoDNThf2W+Nz1+XzNxQubSToSKKW+BDc+WOnkshhSVgeCiGpViZMEg1oxc26Knt+ae3bEtJTZwzE1kXLccG0+sOOlrcvZXvsczPkITfsa20vwIKnhsh+BnjUarT74Gb13CY7KBVJMv3z4N1NszQYsMWM62HNrCis/GxXn0iYls23uz5LPBcv0bH8hUH2XRoM85ySXv7JBtO87jMIvWq+H5GoYIHCLA1ZxD6Qap3Ak8IKfW7TJ50lK6uP9E6RgndHaODtCJ6Z5RyHfnE7j6gRbcKlCYNSt+rtETHTpUGgEP8FYmdNqd/Mo7aiVWTfuH2L9xASvfxxlqr01EYkrJszvNkgW9bH0OuFr+99m+y9IOeyU6zIp/Hubp/yMEztlzFPwOhdvq+nIoS1JNn4t2sugCmVsDvPe2KKolnZLCxhOcAKQRDDXTQaVi46lqYhIBwHTrl3oWqhMRDtaJge37lOBMKo4tfbqhVX0J7snTsWps8uZWuoOQY6CcjpSIF55UvmqNgr5wUwtV1IVdnXtnSfPEB2qjDNqnvczRl0m+j6Jn5lXb6nAQJqinmN0ZEBj03YLzghY8PnTRz80o/GRJZpOLCb0PM9BN7pvUEjx28V00WUg9jIVwAAAABJRU5ErkJggg==","aspectRatio":1,"src":"/static/6d91c86c0fde632ba4cd01062fd9ccfa/fbe2f/gatsby-astronaut.png","srcSet":"/static/6d91c86c0fde632ba4cd01062fd9ccfa/e1fed/gatsby-astronaut.png 75w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/08283/gatsby-astronaut.png 150w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/fbe2f/gatsby-astronaut.png 300w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/59257/gatsby-astronaut.png 450w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/26d9e/gatsby-astronaut.png 600w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/a3fa0/gatsby-astronaut.png 800w","sizes":"(max-width: 300px) 100vw, 300px"}}}}};
-
-/***/ }),
-
 /***/ "./public/static/d/2417117884.json":
 /*!*****************************************!*\
   !*** ./public/static/d/2417117884.json ***!
@@ -3297,6 +3285,17 @@ module.exports = {"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base6
 /***/ (function(module) {
 
 module.exports = {"data":{"site":{"siteMetadata":{"title":"Anna & Jake's Wedding","description":"Anna Ewing and Jake Zien's wedding in Brooklyn, NYC, on October 19, 2019.","author":"@gatsbyjs"}}}};
+
+/***/ }),
+
+/***/ "./public/static/d/3138347921.json":
+/*!*****************************************!*\
+  !*** ./public/static/d/3138347921.json ***!
+  \*****************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = {"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAC5ElEQVQ4y9WU70tTURjHz9RI0Ytmmdq8u9vudd67X64ZWEq4OTW3FaRWopaZms75q6XUSoYo1AxnapE/KIgZkQMp+iFhRUUUvYheGf0DatSLwJU/Qt15ugnKFgm+yKDvm+e8+X7O4Tzf50Hov9GrTna5Pu/ToJeXWGQpEAqMJ1hBToMm5KyNFRjqNMF1TYqgLKs6qKgpOXiyJxFd6dQGeDdWw3Z69fz5y+7I5i6J2GSVJRkb1LZ7F2VUuiPF4uhQpRbUqozHOlKOAuhCEdos+N27qne98uX6HXQRT2voqXa9aKGwUvmj/pQarDblXKuZAWc168ttVEN3nhSeWOiJOdAR/t4AfehXLleAIsKdSc48DCdhSsmCU0It5nNiGESRS2c0DHTr5L5BFANuHTkLUEL4ewM07gccySKny2UUvE5J8t1U0LiOFOKR8Fh8PJ3Bt3aQvvdbKRg2UdMABwl/75rAu3rSa0fboCWLw/m5HAwlkODZFAtNUXFgTpXioe0ieGSkvAAH1gM0ENeKGe8hhQTecgwuNyvAks7AjS3x4EJR4AyLwWM0AwM1HA/ctQ7gJxlxvlXjrY2Ig0mhBHvEYrBHx8IFHQsPSAraWAp3ZCrBWS/ngdr1vDCb6CuivftZCnr1cuyJEkIX2gKnZSKoyOHgskGO78RR4DYk8MDi9QALCU82OX09LB6uZrA+Fy3CPSgaV8pE+GSSCI+zjM/Nd/l2johvypG1gQGxMZCzj8OEMCHnfGOUBJwoaqlMKIS6RGqxRSkFB/+Xw3py5tfla8ZmJZz8BBCj1fSE1cSAo1kJVaVyPHCYgaoKbt5RIoPGRm6+bS+58MxKT3khI2LNYK+MjwghAd/p0LQWban1nHKfya5Oy2vXVjm7VWKzfadttINLLHdJJd++7on809gGKG0j1teLfg366JIhPb+uSm2qILNVFZRvSw6ubpALjI2aEDu/ysryhII3Lg7d71L9w/X1t/QTRnJM1VfUMeYAAAAASUVORK5CYII=","aspectRatio":1,"src":"/static/c007e6f5f84d61e3a70099a407e6d651/fbe2f/19.png","srcSet":"/static/c007e6f5f84d61e3a70099a407e6d651/e1fed/19.png 75w,\n/static/c007e6f5f84d61e3a70099a407e6d651/08283/19.png 150w,\n/static/c007e6f5f84d61e3a70099a407e6d651/fbe2f/19.png 300w,\n/static/c007e6f5f84d61e3a70099a407e6d651/59257/19.png 450w,\n/static/c007e6f5f84d61e3a70099a407e6d651/26d9e/19.png 600w,\n/static/c007e6f5f84d61e3a70099a407e6d651/224e0/19.png 900w,\n/static/c007e6f5f84d61e3a70099a407e6d651/c2a4f/19.png 1000w","sizes":"(max-width: 300px) 100vw, 300px"}}}}};
 
 /***/ }),
 
@@ -3367,6 +3366,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/image */ "./src/components/image.js");
 /* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Container */ "./src/components/Container.js");
+/* harmony import */ var _Footer_module_styl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Footer.module.styl */ "./src/components/Footer.module.styl");
+/* harmony import */ var _Footer_module_styl__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Footer_module_styl__WEBPACK_IMPORTED_MODULE_5__);
+
 
 
 
@@ -3374,10 +3376,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Footer = function Footer() {
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("footer", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_4__["default"], null, "Footer!"));
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("footer", {
+    id: _Footer_module_styl__WEBPACK_IMPORTED_MODULE_5___default.a.siteFooter
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_4__["default"], null, "Footer!"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/components/Footer.module.styl":
+/*!*******************************************!*\
+  !*** ./src/components/Footer.module.styl ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"siteFooter": "Footer-module--siteFooter---XNFF"
+};
 
 /***/ }),
 
@@ -3428,10 +3445,21 @@ Accomodations.defaultProps = {
   urls: {
     hotel: "http://www.beekmanhotel.com/",
     map: "https://www.google.com/maps/place/The+Beekman+Hotel/@40.7110318,-74.0090716,17z/data=!4m8!1m2!3m1!2sThe+Beekman+Hotel!3m4!1s0x0:0xb5e727f9cc73002a!8m2!3d40.7110277!4d-74.0068828",
-    book: "http://bit.do/annajakehotel"
+    book: "http://bit.ly/annaandjake"
   }
 };
 /* harmony default export */ __webpack_exports__["default"] = (Accomodations);
+
+/***/ }),
+
+/***/ "./src/components/base.css":
+/*!*********************************!*\
+  !*** ./src/components/base.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// empty (null-loader)
 
 /***/ }),
 
@@ -3501,28 +3529,39 @@ Boathouse.defaultProps = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/image */ "./src/components/image.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-image */ "./node_modules/gatsby-image/index.js");
+/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(gatsby_image__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
 
 
-var Event = function Event() {
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
+var Event = function Event(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "event"
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "left"
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "The ceremony will be at The Prospect Park Boathouse, at 5:30 PM on October 19, 2019. Drinks, dinner and dancing will follow."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "Dress code is formal. Two notes about what to wear:"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Please choose your heels carefully, as the boathouse has cobbled floors."), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", null, "Please bring a layer for the October weather, as we hope for an outdoor ceremony."))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The ceremony will be at The Prospect Park Boathouse, at 5:30 PM on October 19, 2019. Drinks, dinner and dancing will follow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Dress code is formal. Two notes about what to wear:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please choose your heels carefully, as the boathouse has cobbled floors."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please bring a layer for the October weather, as we hope for an outdoor ceremony."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "right"
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Event);
+/* harmony default export */ __webpack_exports__["default"] = (Event); // export const query = graphql`
+//   query {
+//     image: file(relativePath: {eq: "19.png"}) {
+//       childImageSharp {
+//         fixed(width: 125, height: 125) {
+//             ...GatsbyImageSharpFixed
+//         }
+//       }
+//     }
+//   }
+// `
 
 /***/ }),
 
@@ -3562,12 +3601,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Header = function Header(_ref) {
-  var siteTitle = _ref.siteTitle;
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "fart",
-    id: "poop"
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, siteTitle)));
+var Header = function Header(props) {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("header", {
+    id: _header_module_styl__WEBPACK_IMPORTED_MODULE_5___default.a.siteHeader
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_4__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, props.siteTitle)));
 };
 
 Header.propTypes = {
@@ -3588,7 +3625,7 @@ Header.defaultProps = {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"poop": "header-module--poop--oIKL0"
+	"siteHeader": "header-module--siteHeader--r0wXt"
 };
 
 /***/ }),
@@ -3602,8 +3639,8 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _public_static_d_2011440971_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/static/d/2011440971.json */ "./public/static/d/2011440971.json");
-var _public_static_d_2011440971_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/d/2011440971.json */ "./public/static/d/2011440971.json", 1);
+/* harmony import */ var _public_static_d_3138347921_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/static/d/3138347921.json */ "./public/static/d/3138347921.json");
+var _public_static_d_3138347921_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/d/3138347921.json */ "./public/static/d/3138347921.json", 1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
@@ -3626,28 +3663,17 @@ var _public_static_d_2011440971_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*
 
 var Image = function Image() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["StaticQuery"], {
-    query: "2011440971",
+    query: "3138347921",
     render: function render(data) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby_image__WEBPACK_IMPORTED_MODULE_3___default.a, {
         fluid: data.placeholderImage.childImageSharp.fluid
       });
     },
-    data: _public_static_d_2011440971_json__WEBPACK_IMPORTED_MODULE_0__
+    data: _public_static_d_3138347921_json__WEBPACK_IMPORTED_MODULE_0__
   });
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Image);
-
-/***/ }),
-
-/***/ "./src/components/layout.css":
-/*!***********************************!*\
-  !*** ./src/components/layout.css ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// empty (null-loader)
 
 /***/ }),
 
@@ -3662,21 +3688,23 @@ var Image = function Image() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_static_d_755544856_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/static/d/755544856.json */ "./public/static/d/755544856.json");
 var _public_static_d_755544856_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../public/static/d/755544856.json */ "./public/static/d/755544856.json", 1);
-/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout.css */ "./src/components/layout.css");
-/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base.css */ "./src/components/base.css");
+/* harmony import */ var _base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_base_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _fonts_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fonts.css */ "./src/components/fonts.css");
 /* harmony import */ var _fonts_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fonts_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _typography_styl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./typography.styl */ "./src/components/typography.styl");
 /* harmony import */ var _typography_styl__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_typography_styl__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./header */ "./src/components/header.js");
-/* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Container */ "./src/components/Container.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Footer */ "./src/components/Footer.js");
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+/* harmony import */ var _layout_styl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./layout.styl */ "./src/components/layout.styl");
+/* harmony import */ var _layout_styl__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_layout_styl__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./header */ "./src/components/header.js");
+/* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Container */ "./src/components/Container.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Footer */ "./src/components/Footer.js");
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 
 
 /**
@@ -3695,25 +3723,37 @@ var _public_static_d_755544856_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#
 
 
 
-react_ga__WEBPACK_IMPORTED_MODULE_10__["default"].initialize('UA-137874975-1'); // ReactGA.pageview(window.location.pathname + window.location.search);
+
+react_ga__WEBPACK_IMPORTED_MODULE_11__["default"].initialize('UA-137874975-1'); // ReactGA.pageview(window.location.pathname + window.location.search);
 
 var Layout = function Layout(_ref) {
   var children = _ref.children;
-  return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_6__["StaticQuery"], {
+  return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_7__["StaticQuery"], {
     query: "755544856",
     render: function render(data) {
-      return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_4___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_8__["default"], {
         siteTitle: data.site.siteMetadata.title
-      }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_8__["default"], null, children), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], null));
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_9__["default"], null, children), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], null));
     },
     data: _public_static_d_755544856_json__WEBPACK_IMPORTED_MODULE_0__
   });
 };
 
 Layout.propTypes = {
-  children: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.node.isRequired
+  children: prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.node.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./src/components/layout.styl":
+/*!************************************!*\
+  !*** ./src/components/layout.styl ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// empty (null-loader)
 
 /***/ }),
 
@@ -4002,7 +4042,7 @@ var SecondPage = function SecondPage() {
       maxWidth: "300px",
       marginBottom: "1.45rem"
     }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_image__WEBPACK_IMPORTED_MODULE_4__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, "// ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_image__WEBPACK_IMPORTED_MODULE_4__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/"
   }, "Go back to the homepage"));
 };
