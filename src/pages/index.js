@@ -18,10 +18,8 @@ const IndexPage = () => (
     <Event/>
     <Boathouse/>
     <Accomodations/>
-    {/*<NYC/>*/}
     <Registry/>
 
-    {/*<Link to="/page-2/">Go to page 2</Link>*/}
   </Layout>
 )
 

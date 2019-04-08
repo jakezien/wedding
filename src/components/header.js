@@ -6,11 +6,10 @@ import Container from "../components/Container"
 import styles from "./header.module.styl"
 
 
-const Header = ({ siteTitle }) => (
+const Header = ( props ) => (
   <header id={styles.siteHeader}>
     <Container>
-      {/*<Image fixed={data.file.childImageSharp.fixed} />*/}
-      <h1>{siteTitle}</h1>
+      <h1>{props.siteTitle}</h1>
     </Container> 
   </header>
 )
@@ -24,5 +23,3 @@ Header.defaultProps = {
 }
 
 export default Header
-
- 

@@ -5,9 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import "./layout.css"
+import "./base.css"
 import "./fonts.css"
 import "./typography.styl"
+import "./layout.styl"
 
 import React from "react"
 import PropTypes from "prop-types"
