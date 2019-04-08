@@ -4,7 +4,7 @@ module.exports = {
     description: `Anna Ewing and Jake Zien's wedding in Brooklyn, NYC, on October 19, 2019.`,
     author: `@gatsbyjs`,
   },
-  pathPrefix: "/wedding",
+  // pathPrefix: "/wedding",
   plugins: [
     `gatsby-plugin-stylus`,
     `gatsby-plugin-react-helmet`,
