@@ -87,7 +87,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/wedding/";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -766,9 +766,9 @@ var sanitizeComponents = function sanitizeComponents(components) {
   }(React.Component);
 
   var routerElement = createElement(ServerLocation, {
-    url: "" + "/wedding" + pagePath
+    url: "" + "" + pagePath
   }, createElement(Router, {
-    baseuri: "" + "/wedding"
+    baseuri: "" + ""
   }, createElement(RouteHandler, {
     path: "/*"
   })));
@@ -793,7 +793,7 @@ var sanitizeComponents = function sanitizeComponents(components) {
     setPostBodyComponents: setPostBodyComponents,
     setBodyProps: setBodyProps,
     pathname: pagePath,
-    pathPrefix: "/wedding"
+    pathPrefix: ""
   }); // If no one stepped up, we'll handle it.
 
   if (!bodyHtml) {
@@ -873,7 +873,7 @@ var sanitizeComponents = function sanitizeComponents(components) {
     bodyHtml: bodyHtml,
     scripts: scripts,
     styles: styles,
-    pathPrefix: "/wedding"
+    pathPrefix: ""
   });
   scripts.slice(0).reverse().forEach(function (script) {
     // Add preload/prefetch <link>s for scripts.
@@ -881,12 +881,12 @@ var sanitizeComponents = function sanitizeComponents(components) {
       as: "script",
       rel: script.rel,
       key: script.name,
-      href: "/wedding" + "/" + script.name
+      href: "" + "/" + script.name
     }));
   });
 
   if (page.jsonName in dataPaths) {
-    var dataPath = "/wedding" + "/static/d/" + dataPaths[page.jsonName] + ".json";
+    var dataPath = "" + "/static/d/" + dataPaths[page.jsonName] + ".json";
     headComponents.push(React.createElement("link", {
       as: "fetch",
       rel: "preload",
@@ -904,11 +904,11 @@ var sanitizeComponents = function sanitizeComponents(components) {
         as: "style",
         rel: style.rel,
         key: style.name,
-        href: "/wedding" + "/" + style.name
+        href: "" + "/" + style.name
       }));
     } else {
       headComponents.unshift(React.createElement("style", {
-        "data-href": "/wedding" + "/" + style.name,
+        "data-href": "" + "/" + style.name,
         dangerouslySetInnerHTML: {
           __html: fs.readFileSync(join(process.cwd(), "public", style.name), "utf-8")
         }
@@ -938,7 +938,7 @@ var sanitizeComponents = function sanitizeComponents(components) {
   var bodyScripts = scripts.filter(function (s) {
     return s.rel !== "prefetch";
   }).map(function (s) {
-    var scriptPath = "/wedding" + "/" + JSON.stringify(s.name).slice(1, -1);
+    var scriptPath = "" + "/" + JSON.stringify(s.name).slice(1, -1);
     return React.createElement("script", {
       key: scriptPath,
       src: scriptPath,
@@ -956,7 +956,7 @@ var sanitizeComponents = function sanitizeComponents(components) {
     getPostBodyComponents: getPostBodyComponents,
     replacePostBodyComponents: replacePostBodyComponents,
     pathname: pagePath,
-    pathPrefix: "/wedding"
+    pathPrefix: ""
   });
   var html = "<!DOCTYPE html>" + renderToStaticMarkup(React.createElement(Html, Object.assign({}, bodyProps, {
     headComponents: headComponents,
@@ -1657,7 +1657,7 @@ exports.parsePath = _parsePath.parsePath;
 
 /*global __PATH_PREFIX__ */
 function withPrefix(path) {
-  return normalizePath("/wedding" + "/" + path);
+  return normalizePath("" + "/" + path);
 }
 
 function normalizePath(path) {
@@ -3285,7 +3285,7 @@ if (false) { var parent, cache, hot; } else {
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = {"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAACYklEQVQ4y42Uy28SQRjA+dM8efDmwYN6qF6qiSY+Y/WgQRMibY00TaWNBSRSCraYQtHl/bR0KyxQWCgWWAqU8izl/Sq7rLNsRHlVJpvJtzPfb77nDIOcZHSoqZSrp4+KtXIziubaLRysMCZiCYqOoVnhjNEi8RcztdxxeTzc6VBfT+5O2Vhpb+vw4wMdZ0ppWvP9xzLeJoDNThf2W+Nz1+XzNxQubSToSKKW+BDc+WOnkshhSVgeCiGpViZMEg1oxc26Knt+ae3bEtJTZwzE1kXLccG0+sOOlrcvZXvsczPkITfsa20vwIKnhsh+BnjUarT74Gb13CY7KBVJMv3z4N1NszQYsMWM62HNrCis/GxXn0iYls23uz5LPBcv0bH8hUH2XRoM85ySXv7JBtO87jMIvWq+H5GoYIHCLA1ZxD6Qap3Ak8IKfW7TJ50lK6uP9E6RgndHaODtCJ6Z5RyHfnE7j6gRbcKlCYNSt+rtETHTpUGgEP8FYmdNqd/Mo7aiVWTfuH2L9xASvfxxlqr01EYkrJszvNkgW9bH0OuFr+99m+y9IOeyU6zIp/Hubp/yMEztlzFPwOhdvq+nIoS1JNn4t2sugCmVsDvPe2KKolnZLCxhOcAKQRDDXTQaVi46lqYhIBwHTrl3oWqhMRDtaJge37lOBMKo4tfbqhVX0J7snTsWps8uZWuoOQY6CcjpSIF55UvmqNgr5wUwtV1IVdnXtnSfPEB2qjDNqnvczRl0m+j6Jn5lXb6nAQJqinmN0ZEBj03YLzghY8PnTRz80o/GRJZpOLCb0PM9BN7pvUEjx28V00WUg9jIVwAAAABJRU5ErkJggg==","aspectRatio":1,"src":"/wedding/static/6d91c86c0fde632ba4cd01062fd9ccfa/fbe2f/gatsby-astronaut.png","srcSet":"/wedding/static/6d91c86c0fde632ba4cd01062fd9ccfa/e1fed/gatsby-astronaut.png 75w,\n/wedding/static/6d91c86c0fde632ba4cd01062fd9ccfa/08283/gatsby-astronaut.png 150w,\n/wedding/static/6d91c86c0fde632ba4cd01062fd9ccfa/fbe2f/gatsby-astronaut.png 300w,\n/wedding/static/6d91c86c0fde632ba4cd01062fd9ccfa/59257/gatsby-astronaut.png 450w,\n/wedding/static/6d91c86c0fde632ba4cd01062fd9ccfa/26d9e/gatsby-astronaut.png 600w,\n/wedding/static/6d91c86c0fde632ba4cd01062fd9ccfa/a3fa0/gatsby-astronaut.png 800w","sizes":"(max-width: 300px) 100vw, 300px"}}}}};
+module.exports = {"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAACYklEQVQ4y42Uy28SQRjA+dM8efDmwYN6qF6qiSY+Y/WgQRMibY00TaWNBSRSCraYQtHl/bR0KyxQWCgWWAqU8izl/Sq7rLNsRHlVJpvJtzPfb77nDIOcZHSoqZSrp4+KtXIziubaLRysMCZiCYqOoVnhjNEi8RcztdxxeTzc6VBfT+5O2Vhpb+vw4wMdZ0ppWvP9xzLeJoDNThf2W+Nz1+XzNxQubSToSKKW+BDc+WOnkshhSVgeCiGpViZMEg1oxc26Knt+ae3bEtJTZwzE1kXLccG0+sOOlrcvZXvsczPkITfsa20vwIKnhsh+BnjUarT74Gb13CY7KBVJMv3z4N1NszQYsMWM62HNrCis/GxXn0iYls23uz5LPBcv0bH8hUH2XRoM85ySXv7JBtO87jMIvWq+H5GoYIHCLA1ZxD6Qap3Ak8IKfW7TJ50lK6uP9E6RgndHaODtCJ6Z5RyHfnE7j6gRbcKlCYNSt+rtETHTpUGgEP8FYmdNqd/Mo7aiVWTfuH2L9xASvfxxlqr01EYkrJszvNkgW9bH0OuFr+99m+y9IOeyU6zIp/Hubp/yMEztlzFPwOhdvq+nIoS1JNn4t2sugCmVsDvPe2KKolnZLCxhOcAKQRDDXTQaVi46lqYhIBwHTrl3oWqhMRDtaJge37lOBMKo4tfbqhVX0J7snTsWps8uZWuoOQY6CcjpSIF55UvmqNgr5wUwtV1IVdnXtnSfPEB2qjDNqnvczRl0m+j6Jn5lXb6nAQJqinmN0ZEBj03YLzghY8PnTRz80o/GRJZpOLCb0PM9BN7pvUEjx28V00WUg9jIVwAAAABJRU5ErkJggg==","aspectRatio":1,"src":"/static/6d91c86c0fde632ba4cd01062fd9ccfa/fbe2f/gatsby-astronaut.png","srcSet":"/static/6d91c86c0fde632ba4cd01062fd9ccfa/e1fed/gatsby-astronaut.png 75w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/08283/gatsby-astronaut.png 150w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/fbe2f/gatsby-astronaut.png 300w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/59257/gatsby-astronaut.png 450w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/26d9e/gatsby-astronaut.png 600w,\n/static/6d91c86c0fde632ba4cd01062fd9ccfa/a3fa0/gatsby-astronaut.png 800w","sizes":"(max-width: 300px) 100vw, 300px"}}}}};
 
 /***/ }),
 
