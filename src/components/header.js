@@ -7,8 +7,8 @@ import styles from "./header.module.styl"
 
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <Container className='fart' id="poop">
+  <header id={styles.siteHeader}>
+    <Container>
       {/*<Image fixed={data.file.childImageSharp.fixed} />*/}
       <h1>{siteTitle}</h1>
     </Container> 
