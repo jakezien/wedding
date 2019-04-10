@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import img from "../images/plant.png"
@@ -7,15 +6,15 @@ import img from "../images/plant.png"
 const Boathouse = ({urls}) => (
   <section id="boathouse">
     <h2>The Boathouse</h2>
-    <img class="interstitial" src={img}/>
+    <img class="interstitial" src={img} alt="Illustration of a sapling against a starry sky"/>
     <div class="left">
       <h2>Getting there</h2>
-      <p>Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You're looking for <a href={urls.parkEntranceMap} target="_blank">the entrance on the corner of Ocean Avenue and Lincoln Road,</a> in the middle of the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road.</p>
+      <p>Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You're looking for <a href={urls.parkEntranceMap} target="_blank" rel="noopener noreferrer">the entrance on the corner of Ocean Avenue and Lincoln Road,</a> in the middle of the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road.</p>
       <h3>Transportation</h3>
       <p>We'll provide transportation from the Beekman hotel to the boathouse.</p>
-      <p>If you're taking an Uber or Lyft, just search for the <a href={urls.boathouseMap} target="_blank">Prospect Park Boathouse & Audobon Center</a> in Brooklyn.</p>
-      <p>If you're taking a cab, ask for the <a href={urls.parkEntranceMap} target="_blank">entrance to Prospect Park</a> on the corner of Ocean Avenue and Lincoln Road.</p>
-      <p>On the subway, take a B or Q train to <a href={urls.subwayMap} target="_blank">Prospect Park.</a> You can also take an A or C train to Franklin Avenue, then transfer to an S shuttle to Prospect Park.</p>
+      <p>If you're taking an Uber or Lyft, just search for the <a href={urls.boathouseMap} target="_blank" rel="noopener noreferrer">Prospect Park Boathouse & Audobon Center</a> in Brooklyn.</p>
+      <p>If you're taking a cab, ask for the <a href={urls.parkEntranceMap} target="_blank" rel="noopener noreferrer">entrance to Prospect Park</a> on the corner of Ocean Avenue and Lincoln Road.</p>
+      <p>On the subway, take a B or Q train to <a href={urls.subwayMap} target="_blank" rel="noopener noreferrer">Prospect Park.</a> You can also take an A or C train to Franklin Avenue, then transfer to an S shuttle to Prospect Park.</p>
       <p>If you are unfamiliar with the subway, we really recommend taking a cab. The trains are unpredictable, especially on weekends, and it's easy to wind up at the wrong stop.</p>
     </div>
     <div class="right">
