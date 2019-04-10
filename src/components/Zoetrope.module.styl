@@ -1,45 +1,47 @@
 .container
   position relative
-  height 500px
+  height 600px
   overflow hidden
-
-.wheel
-  position absolute
-  top 100%
-  left 50%
-  width 166%
-  height 166vw
-  background-image url('../images/zoetrope.png')
-  background-size 100% 100%
-  background-position center center
-  animation spin 30s linear infinite
+  background #2D5AAE
+  display flex
   
-.cover
-  width 20%
-  height 20vw
-  bottom -50%
-  left 50%
-  transform translatex(-50%)
-  background red
-  position absolute
-  text-align center
-  border-radius 50%
-  z-index 2
+  img
+    margin 0
+    position relative
+    animation spin 68s linear infinite
+       
+.imgWrap
+  position relative
+  align-self flex-end
+  transform translateY(65%) scale(3)
+
+@media only screen and (min-width: 500px)
+  .imgWrap
+    transform translateY(60%) scale(2)
+
 
 @media only screen and (min-width: 768px)
-  .wheel
-    position absolute
-    top 100%
-    left 50%
-    width 110%
-    height 110vw
-    background-image url('../images/zoetrope.png')
-    background-size 100% 100%
-    background-position center center
-    animation spin 30s linear infinite
+  .imgWrap
+    transform translateY(60%) scale(1.5)
+  .container
+    height 500px
+
+@media only screen and (min-width: 860px)
+  .imgWrap
+    transform translateY(60%) scale(1.2)
+
+@media only screen and (min-width: 1100px)
+  .imgWrap
+    transform translateY(60%) scale(1)
+
+@media only screen and (min-width: 1400px)
+  .imgWrap
+    transform translateY(60%) scale(0.9)
+    
+
 
 @keyframes spin
   0%
-    transform translatex(-50%) translatey(-50%) rotate(360deg)
+    transform rotate(360deg)
   100%
-    transform translatex(-50%) translatey(-50%) rotate(0deg)
+    transform rotate(0deg)
