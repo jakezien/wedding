@@ -3862,6 +3862,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/image */ "./src/components/image.js");
+/* harmony import */ var _images_pomegranate_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/pomegranate.png */ "./src/images/pomegranate.png");
+/* harmony import */ var _images_pomegranate_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_pomegranate_png__WEBPACK_IMPORTED_MODULE_4__);
+
 
 
 
@@ -3871,7 +3874,10 @@ var Registry = function Registry(_ref) {
   var urls = _ref.urls;
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
     id: "registry"
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "Registry"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "Registry"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    class: "interstitial",
+    src: _images_pomegranate_png__WEBPACK_IMPORTED_MODULE_4___default.a
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     class: "left"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "Your presence is plenty \u2014 but if you insist, we\u2019ve registered via ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
     href: urls.zola,
@@ -4024,6 +4030,17 @@ module.exports = __webpack_require__.p + "static/beekman-b-556c521b88d8a12b18900
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/plant-c17b08dbfecc16439ccde4ae09e982df.png";
+
+/***/ }),
+
+/***/ "./src/images/pomegranate.png":
+/*!************************************!*\
+  !*** ./src/images/pomegranate.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/pomegranate-9d3e461648daf6ef1b5e9ee735afa72e.png";
 
 /***/ }),
 
