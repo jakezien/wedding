@@ -3398,6 +3398,55 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./src/components/Zoetrope.js":
+/*!************************************!*\
+  !*** ./src/components/Zoetrope.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Zoetrope.module.styl */ "./src/components/Zoetrope.module.styl");
+/* harmony import */ var _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_zoetrope_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/zoetrope.png */ "./src/images/zoetrope.png");
+/* harmony import */ var _images_zoetrope_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_zoetrope_png__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+var Zoetrope = function Zoetrope() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.container
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.imgWrap
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_zoetrope_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: "zoetrope"
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Zoetrope);
+
+/***/ }),
+
+/***/ "./src/components/Zoetrope.module.styl":
+/*!*********************************************!*\
+  !*** ./src/components/Zoetrope.module.styl ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"container": "Zoetrope-module--container--2SS7J",
+	"spin": "Zoetrope-module--spin--3K_h2",
+	"imgWrap": "Zoetrope-module--imgWrap--2zbKw"
+};
+
+/***/ }),
+
 /***/ "./src/components/accomodations.js":
 /*!*****************************************!*\
   !*** ./src/components/accomodations.js ***!
@@ -3590,10 +3639,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/image */ "./src/components/image.js");
-/* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Container */ "./src/components/Container.js");
-/* harmony import */ var _header_module_styl__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./header.module.styl */ "./src/components/header.module.styl");
-/* harmony import */ var _header_module_styl__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_header_module_styl__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Container */ "./src/components/Container.js");
+/* harmony import */ var _header_module_styl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./header.module.styl */ "./src/components/header.module.styl");
+/* harmony import */ var _header_module_styl__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_header_module_styl__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Zoetrope__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Zoetrope */ "./src/components/Zoetrope.js");
 
 
 
@@ -3603,8 +3652,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var Header = function Header(props) {
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("header", {
-    id: _header_module_styl__WEBPACK_IMPORTED_MODULE_5___default.a.siteHeader
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_4__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, props.siteTitle)));
+    id: _header_module_styl__WEBPACK_IMPORTED_MODULE_4___default.a.siteHeader
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Zoetrope__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_3__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, props.siteTitle)));
 };
 
 Header.propTypes = {
@@ -3941,6 +3990,17 @@ SEO.propTypes = {
 /***/ (function(module, exports) {
 
 // empty (null-loader)
+
+/***/ }),
+
+/***/ "./src/images/zoetrope.png":
+/*!*********************************!*\
+  !*** ./src/images/zoetrope.png ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/zoetrope-e0bbc307db44ed3f74dbffad185e3eba.png";
 
 /***/ }),
 
