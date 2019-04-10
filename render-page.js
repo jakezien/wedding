@@ -3461,7 +3461,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/image */ "./src/components/image.js");
+/* harmony import */ var _images_beekman_b_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/beekman-b.png */ "./src/images/beekman-b.png");
+/* harmony import */ var _images_beekman_b_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_beekman_b_png__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -3471,7 +3472,10 @@ var Accomodations = function Accomodations(_ref) {
   var urls = _ref.urls;
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
     id: "accomodations"
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "Accomodations"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "Accomodations"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    class: "interstitial",
+    src: _images_beekman_b_png__WEBPACK_IMPORTED_MODULE_3___default.a
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     class: "left"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "We recommend the ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
     href: urls.hotel,
@@ -3526,7 +3530,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/image */ "./src/components/image.js");
+/* harmony import */ var _images_plant_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/plant.png */ "./src/images/plant.png");
+/* harmony import */ var _images_plant_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_plant_png__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -3536,7 +3541,10 @@ var Boathouse = function Boathouse(_ref) {
   var urls = _ref.urls;
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("section", {
     id: "boathouse"
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "The Boathouse"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "The Boathouse"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
+    class: "interstitial",
+    src: _images_plant_png__WEBPACK_IMPORTED_MODULE_3___default.a
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     class: "left"
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, "Getting there"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You're looking for ", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
     href: urls.parkEntranceMap,
@@ -3581,36 +3589,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-image */ "./node_modules/gatsby-image/index.js");
-/* harmony import */ var gatsby_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(gatsby_image__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _layout_styl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout.styl */ "./src/components/layout.styl");
+/* harmony import */ var _layout_styl__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_styl__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_19_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/19.png */ "./src/images/19.png");
+/* harmony import */ var _images_19_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_19_png__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
 
 
-var Event = function Event(props) {
+var Event = function Event() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "event"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    class: "interstitial",
+    src: _images_19_png__WEBPACK_IMPORTED_MODULE_3___default.a
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "left"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The ceremony will be at The Prospect Park Boathouse, at 5:30 PM on October 19, 2019. Drinks, dinner and dancing will follow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Dress code is formal. Two notes about what to wear:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please choose your heels carefully, as the boathouse has cobbled floors."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please bring a layer for the October weather, as we hope for an outdoor ceremony."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "right"
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Event); // export const query = graphql`
-//   query {
-//     image: file(relativePath: {eq: "19.png"}) {
-//       childImageSharp {
-//         fixed(width: 125, height: 125) {
-//             ...GatsbyImageSharpFixed
-//         }
-//       }
-//     }
-//   }
-// `
+/* harmony default export */ __webpack_exports__["default"] = (Event);
 
 /***/ }),
 
@@ -3990,6 +3991,39 @@ SEO.propTypes = {
 /***/ (function(module, exports) {
 
 // empty (null-loader)
+
+/***/ }),
+
+/***/ "./src/images/19.png":
+/*!***************************!*\
+  !*** ./src/images/19.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/19-c007e6f5f84d61e3a70099a407e6d651.png";
+
+/***/ }),
+
+/***/ "./src/images/beekman-b.png":
+/*!**********************************!*\
+  !*** ./src/images/beekman-b.png ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/beekman-b-556c521b88d8a12b18900d4f3a31275e.png";
+
+/***/ }),
+
+/***/ "./src/images/plant.png":
+/*!******************************!*\
+  !*** ./src/images/plant.png ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/plant-c17b08dbfecc16439ccde4ae09e982df.png";
 
 /***/ }),
 
