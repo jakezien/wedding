@@ -1,12 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Image from "../components/image"
+import img from "../images/beekman-b.png"
+
 
 const Accomodations = ({ urls }) => (
 
   <section id="accomodations">
     <h2>Accomodations</h2>
+    <img class="interstitial" src={img}/>
     <div class="left">
       <p>We recommend the <a href={urls.hotel} target="_blank">The Beekman Hotel</a> in Manhattan, <a href={urls.map} target="_blank">at the base of the Brooklyn Bridge.</a> The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America's first performace of Hamlet, and in 1766 was destroyed in riots over the Stamp Act.</p>
       <p>We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please <a href={urls.book} target="_blank">book your room</a> (online only) by Wednesday, September 18.</p>

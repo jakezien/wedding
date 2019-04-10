@@ -1,13 +1,13 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Image from "../components/image" 
+import img from "../images/plant.png"
+
 
 const Boathouse = ({urls}) => (
   <section id="boathouse">
     <h2>The Boathouse</h2>
-    <div>
-    </div>
+    <img class="interstitial" src={img}/>
     <div class="left">
       <h2>Getting there</h2>
       <p>Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You're looking for <a href={urls.parkEntranceMap} target="_blank">the entrance on the corner of Ocean Avenue and Lincoln Road,</a> in the middle of the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road.</p>

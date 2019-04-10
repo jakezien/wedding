@@ -1,12 +1,12 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import PropTypes from "prop-types"
+import './layout.styl'
+import img from "../images/19.png"
 
-const Event = (props) => (
+const Event = () => (
   <section id="event">
     <h2>The Event</h2>
-    {/*<Img fixed={props.data.image.childImageSharp.fixed} />*/}
+    <img class="interstitial" src={img}/>
     <div class="left">
       <p>The ceremony will be at The Prospect Park Boathouse, at 5:30 PM on October 19, 2019. Drinks, dinner and dancing will follow.</p>
       <p>Dress code is formal. Two notes about what to wear:</p>
@@ -22,15 +22,3 @@ const Event = (props) => (
 )
 
 export default Event
-
-// export const query = graphql`
-//   query {
-//     image: file(relativePath: {eq: "19.png"}) {
-//       childImageSharp {
-//         fixed(width: 125, height: 125) {
-//             ...GatsbyImageSharpFixed
-//         }
-//       }
-//     }
-//   }
-// `
