@@ -3457,7 +3457,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoBAMAAAC/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/zoetrope-88697c97258538796df192172ab68854.png";
+module.exports = __webpack_require__.p + "static/zoetrope-8272980f37c26bfc7e2e3561593b920f.png";
 
 /***/ }),
 
