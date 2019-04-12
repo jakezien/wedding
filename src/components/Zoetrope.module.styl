@@ -4,48 +4,88 @@
   overflow hidden
   background #023370
   display flex
-  
-  img
-    margin 0
-    position relative
-    animation spin 136s linear infinite
        
 .imgWrap
   position relative
   align-self flex-end
-  top 65vw
-  // transform translateY(65%) scale(3)
+  top 190vw
   
 .zoetrope
-  width 120vw
-  height 120vw
   background url('../images/zoetrope.png')
   background-size 100%
   background-position center
   position relative
-  left -10vw
   animation spin 136s linear infinite
+  width 350vw
+  height 350vw
+  left -125vw
 
-// @media only screen and (min-width: 500px)
-//   .imgWrap
-//     transform translateY(55%) scale(2)
+@media only screen and (min-width: 410px)
+  .imgWrap
+    top 150vw
 
-// @media only screen and (min-width: 768px)
-//   .imgWrap
-//     transform translateY(55%) scale(1.5)
+  .zoetrope
+    width 275vw
+    height 275vw
+    left -87.5vw
 
-// @media only screen and (min-width: 860px)
-//   .imgWrap
-//     transform translateY(55%) scale(1.2)
+@media only screen and (min-width: 500px)
+  .imgWrap
+    top 100vw
 
-// @media only screen and (min-width: 1100px)
-//   .imgWrap
-//     transform translateY(55%) scale(1)
+  .zoetrope
+    width 200vw
+    height 200vw
+    left -50vw
 
-// @media only screen and (min-width: 1400px)
-//   .imgWrap
-//     transform translateY(55%) scale(0.9)
+@media only screen and (min-width: 650px)
+  .imgWrap
+    top 110vw
+
+@media only screen and (min-width: 740px)
+  .imgWrap
+    top 80vw
+
+  .zoetrope
+    width 150vw
+    height 150vw
+    left -25vw
+
+@media only screen and (min-width: 950px)
+  .imgWrap
+    top 70vw
+
+  .zoetrope
+    width 125vw
+    height 125vw
+    left -12.5vw
+
+@media only screen and (min-width: 1200px)
+  .imgWrap
+    top 65vw
     
+  .zoetrope
+    width 115vw
+    height 115vw
+    left -7.5vw
+
+@media only screen and (min-width: 1380px)
+  .imgWrap
+    top 65vw
+    
+  .zoetrope
+    width 110vw
+    height 110vw
+    left -5vw
+
+@media only screen and (min-width: 1500px)
+  .imgWrap
+    top 70vw
+    
+  .zoetrope
+    width 110vw
+    height 110vw
+    left -5vw
 
 
 @keyframes spin
