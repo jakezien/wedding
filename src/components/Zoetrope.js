@@ -6,7 +6,8 @@ import image from '../images/zoetrope.png'
 const Zoetrope = () => (
   <div className={styles.container}>
     <div className={styles.imgWrap}>
-      <img src={image} alt="zoetrope"/>
+      {/*<img src={image} alt="zoetrope"/>*/}
+      <div className={styles.zoetrope}></div>
     </div>
   </div>
 )
