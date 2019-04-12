@@ -2914,9 +2914,8 @@ var Zoetrope = function Zoetrope() {
     className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.container
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.imgWrap
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _images_zoetrope_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    alt: "zoetrope"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.zoetrope
   })));
 };
 
@@ -2933,8 +2932,9 @@ var Zoetrope = function Zoetrope() {
 
 module.exports = {
 	"container": "Zoetrope-module--container--2SS7J",
-	"spin": "Zoetrope-module--spin--3K_h2",
-	"imgWrap": "Zoetrope-module--imgWrap--2zbKw"
+	"imgWrap": "Zoetrope-module--imgWrap--2zbKw",
+	"zoetrope": "Zoetrope-module--zoetrope--UnZft",
+	"spin": "Zoetrope-module--spin--3K_h2"
 };
 
 /***/ }),
