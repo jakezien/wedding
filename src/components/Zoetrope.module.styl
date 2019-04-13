@@ -1,95 +1,66 @@
+@import './variables.styl'
+
 .container
   position relative
-  height 600px
+  min-height 600px
+  height 70vh
+  width 100%
   overflow hidden
-  background #023370
-  display flex
+  // background #023370
+
+.divider
+  width 100%
+  height 40px
+  margin-bottom 200px
+  background url('../images/divider-yellow.png')
+  background-size auto 100%
+  position relative
+
+.sticker
+  position absolute
+  width 310px
+  height 310px
+  left 50% 
+  top 50%
+  transform translate(-50%, -45%)
+  background annaRed
+  border 2px solid black
+  border-radius 50%
        
 .imgWrap
-  position relative
-  align-self flex-end
-  top 190vw
+  position absolute
+  width 500vw
+  height 500vw
+  top 105%
+  left 50%
+  transform translate(-50%, -50%)
+  animation spin 136s linear infinite
+  div
+    position absolute
+    width 100%
+    height 100%
+    background-position center center
+    
+.stars
+  background url('../images/stars.gif')
+  background-repeat repeat-x repeat-y
+  background-size auto 6vh
   
 .zoetrope
   background url('../images/zoetrope.png')
-  background-size 100%
-  background-position center
-  position relative
-  animation spin 136s linear infinite
-  width 350vw
-  height 350vw
-  left -125vw
+  background-repeat no-repeat
+  background-size 120vh
 
-@media only screen and (min-width: 410px)
-  .imgWrap
-    top 150vw
+@media only screen and (min-width: 768px)
+  .stars
+    background-size auto 6vh
 
   .zoetrope
-    width 275vw
-    height 275vw
-    left -87.5vw
-
-@media only screen and (min-width: 500px)
-  .imgWrap
-    top 100vw
-
-  .zoetrope
-    width 200vw
-    height 200vw
-    left -50vw
-
-@media only screen and (min-width: 650px)
-  .imgWrap
-    top 110vw
-
-@media only screen and (min-width: 740px)
-  .imgWrap
-    top 80vw
-
-  .zoetrope
-    width 150vw
-    height 150vw
-    left -25vw
-
-@media only screen and (min-width: 950px)
-  .imgWrap
-    top 70vw
-
-  .zoetrope
-    width 125vw
-    height 125vw
-    left -12.5vw
-
-@media only screen and (min-width: 1200px)
-  .imgWrap
-    top 65vw
-    
-  .zoetrope
-    width 115vw
-    height 115vw
-    left -7.5vw
-
-@media only screen and (min-width: 1380px)
-  .imgWrap
-    top 65vw
-    
-  .zoetrope
-    width 110vw
-    height 110vw
-    left -5vw
-
-@media only screen and (min-width: 1500px)
-  .imgWrap
-    top 70vw
-    
-  .zoetrope
-    width 110vw
-    height 110vw
-    left -5vw
+    background-size 130vh
 
 
 @keyframes spin
   0%
-    transform rotate(360deg)
+    transform translate(-50%, -50%) rotate(360deg)
   100%
-    transform rotate(0deg)
+    transform translate(-50%, -50%) rotate(0deg)

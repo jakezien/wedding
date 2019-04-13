@@ -6,8 +6,9 @@ import img from "../images/plant.png"
 const Boathouse = ({urls}) => (
   <section id="boathouse">
     <h2>The Boathouse</h2>
-    <img class="interstitial" src={img} alt="Illustration of a sapling against a starry sky"/>
+    <img class="interstitial" src={img} alt="Illustration of a sapling against a starry sky"/> 
     <div class="left">
+      <p>Brooklyn's <a href={urls.boathouseMap} target="_blank" rel="noopener noreferrer">Prospect Park Boathouse</a>, built in 1905, is on the National Register of Historic Places and is a New York City landmark. It stopped renting boats decades ago, was almost demolished, and after several renovations, it now houses New York's Audobon Center.  We like it for being a pretty place in nature that still feels like New York. And it's close enough to our home that we picnic there on summer weekends.</p>
       <h2>Getting there</h2>
       <p>Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You're looking for <a href={urls.parkEntranceMap} target="_blank" rel="noopener noreferrer">the entrance on the corner of Ocean Avenue and Lincoln Road,</a> in the middle of the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road.</p>
       <h3>Transportation</h3>
