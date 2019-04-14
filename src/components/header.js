@@ -9,8 +9,8 @@ import Zoetrope from "./Zoetrope"
 const Header = ( props ) => (
   <header id={styles.siteHeader}>
     <Zoetrope/>
+    <h1>{props.siteTitle}</h1>
     <Container>
-      <h1>{props.siteTitle}</h1>
     </Container> 
   </header>
 )
