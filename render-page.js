@@ -2908,7 +2908,7 @@ __webpack_require__.r(__webpack_exports__);
 var Intro = function Intro() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "intro"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, "We're so excited you're here! We can't wait to celebrate with you as we open a new chapter in our life together.")));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, "We\u2019re so excited you\u2019re here! We can\u2019t wait to celebrate with you as we open a new chapter in our life together.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Intro);
@@ -2996,11 +2996,11 @@ var Accomodations = function Accomodations(_ref) {
   var urls = _ref.urls;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
     id: "accomodations"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Accomodations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     class: "interstitial",
     src: _images_beekman_b_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "Beekman hotel logo"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Accomodations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "left"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We recommend the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.hotel,
@@ -3010,7 +3010,7 @@ var Accomodations = function Accomodations(_ref) {
     href: urls.map,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "at the base of the Brooklyn Bridge."), " The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America's first performace of Hamlet, and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "at the base of the Brooklyn Bridge."), " The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America\u2019s first performace of Hamlet, and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.book,
     target: "_blank",
     rel: "noopener noreferrer"
@@ -3069,25 +3069,25 @@ var Boathouse = function Boathouse(_ref) {
   var urls = _ref.urls;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
     id: "boathouse"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "The Boathouse"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     class: "interstitial",
     src: _images_plant_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "Illustration of a sapling against a starry sky"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "The Boathouse"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "left"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Brooklyn's ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Brooklyn\u2019s ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.boathouseMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Prospect Park Boathouse"), ", built in 1905, is on the National Register of Historic Places and is a New York City landmark. It stopped renting boats decades ago, was almost demolished, and after several renovations, it now houses New York's Audobon Center.  We like it for being a pretty place in nature that still feels like New York. And it's close enough to our home that we picnic there on summer weekends."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Getting there"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You're looking for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "Prospect Park Boathouse"), ", built in 1905, is on the National Register of Historic Places and is a New York City landmark. It stopped renting boats decades ago, was almost demolished, and after several renovations, it now houses New York\u2019s Audobon Center.  We like it for being a pretty place in nature that still feels like New York. And it\u2019s close enough to our home that we picnic there on summer weekends."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Getting there"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You\u2019re looking for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.parkEntranceMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "the entrance on the corner of Ocean Avenue and Lincoln Road,"), " in the middle of the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We'll provide transportation from the Beekman hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you're taking an Uber or Lyft, just search for the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "the entrance on the corner of Ocean Avenue and Lincoln Road,"), " in the middle of the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide transportation from the Beekman hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, just search for the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.boathouseMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Prospect Park Boathouse & Audobon Center"), " in Brooklyn."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you're taking a cab, ask for the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "Prospect Park Boathouse & Audobon Center"), " in Brooklyn."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking a cab, ask for the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.parkEntranceMap,
     target: "_blank",
     rel: "noopener noreferrer"
@@ -3095,7 +3095,7 @@ var Boathouse = function Boathouse(_ref) {
     href: urls.subwayMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Prospect Park."), " You can also take an A or C train to Franklin Avenue, then transfer to an S shuttle to Prospect Park."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you are unfamiliar with the subway, we really recommend taking a cab. The trains are unpredictable, especially on weekends, and it's easy to wind up at the wrong stop.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, "Prospect Park."), " You can also take an A or C train to Franklin Avenue, then transfer to an S shuttle to Prospect Park."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you are unfamiliar with the subway, we really recommend taking a cab. The trains are unpredictable, especially on weekends, and it\u2019s easy to wind up at the wrong stop.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "right"
   }));
 };
@@ -3136,11 +3136,11 @@ __webpack_require__.r(__webpack_exports__);
 var Event = function Event() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "event"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     class: "interstitial",
     src: _images_19_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "Illustration of the number 19 surrounded by snakes"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "left"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The ceremony will be at The Prospect Park Boathouse, at 5:30 PM on October 19, 2019. Drinks, dinner and dancing will follow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Dress code is formal. Two notes about what to wear:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please choose your heels carefully, as the boathouse has cobbled floors."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please bring a layer for the October weather, as we hope for an outdoor ceremony."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "right"
@@ -3196,7 +3196,7 @@ Header.propTypes = {
   siteTitle: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string
 };
 Header.defaultProps = {
-  siteTitle: "Anna & Jake's Wedding"
+  siteTitle: "Anna &amp;&nbsp;Jake&rsquo;s Wedding"
 };
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 
@@ -3318,11 +3318,11 @@ var Registry = function Registry(_ref) {
   var urls = _ref.urls;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
     id: "registry"
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Registry"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     class: "interstitial",
     src: _images_pomegranate_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "Illustration of a pomegranate"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Registry"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "left"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Your presence is plenty \u2014 but if you insist, we\u2019ve registered via ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.zola,
