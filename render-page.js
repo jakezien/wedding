@@ -2903,10 +2903,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Container */ "./src/components/Container.js");
 
- // import styles from "./Intro.module.styl"
+
 
 var Intro = function Intro() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We're so excited you're here! We can't wait to celebrate with you as we open a new chapter in our life together.")));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    id: "intro"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, "We're so excited you're here! We can't wait to celebrate with you as we open a new chapter in our life together.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Intro);
@@ -3187,7 +3189,7 @@ __webpack_require__.r(__webpack_exports__);
 var Header = function Header(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("header", {
     id: _header_module_styl__WEBPACK_IMPORTED_MODULE_3___default.a.siteHeader
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Zoetrope__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, props.siteTitle)));
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Zoetrope__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, props.siteTitle), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Container__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 };
 
 Header.propTypes = {
