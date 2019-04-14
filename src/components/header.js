@@ -20,7 +20,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: `Anna & Jake's Wedding`,
+  siteTitle: `Anna &amp;&nbsp;Jake&rsquo;s Wedding`,
 }
 
 export default Header
