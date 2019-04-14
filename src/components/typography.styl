@@ -15,15 +15,25 @@ h1, h2, h3, h4, h5, h6
 h1, h2
   font-family Respira
   color annaRed
-
   
 h1
   margin 1.5rem auto 3rem auto
   font-size 4em
   letter-spacing -0.075rem
+  padding 0 0.5rem
 
 h2
   font-size 2em
+  
+a
+  text-decoration none
+  color darkRed
+  transition all 0.15s
+  border-bottom 1px dotted alpha(darkRed, 0.25)
+  &:hover
+    color annaRed
+    border-bottom 1px dotted alpha(annaRed, 0.3)
+    
   
   
 @media only screen and (min-width: 768px)
