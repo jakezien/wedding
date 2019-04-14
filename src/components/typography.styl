@@ -30,15 +30,20 @@ h3
   margin-top 3rem
   
 a
+  font-family Respira
   text-decoration none
-  color darkRed
-  transition all 0.15s
-  border-bottom 1px dotted alpha(darkRed, 0.25)
-  &:hover
-    color annaRed
-    border-bottom 1px dotted alpha(annaRed, 0.3)
-    
+  color annaRed
+  letter-spacing 0.05em
+  // transition all 0.15s
+  font-size 0.9em
+  background-image url('../images/underline.gif')
+  background-repeat repeat-x
+  background-size 3px auto
+  background-position left 88%
+  text-shadow 3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
   
+  &:hover
+    color darkRed
   
 @media only screen and (min-width: 768px)
   html
