@@ -3497,7 +3497,7 @@ module.exports = __webpack_require__.p + "static/pomegranate-bb1735497ca47ab7bf4
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/zoetrope-7f2e607a9a9602675c1713fa78fe7ffd.png";
+module.exports = __webpack_require__.p + "static/zoetrope-edbb63f44a7ed9fee497f4550b047291.png";
 
 /***/ }),
 
