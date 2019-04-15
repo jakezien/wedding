@@ -2946,8 +2946,14 @@ var Zoetrope = function Zoetrope() {
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.divider
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.stickerBorder
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.sticker
-  })));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.stickerBg
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _Zoetrope_module_styl__WEBPACK_IMPORTED_MODULE_1___default.a.stickerImg
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Zoetrope);
@@ -2965,6 +2971,10 @@ module.exports = {
 	"container": "Zoetrope-module--container--2SS7J",
 	"divider": "Zoetrope-module--divider--1T_nw",
 	"sticker": "Zoetrope-module--sticker--3KQ5C",
+	"stickerBorder": "Zoetrope-module--stickerBorder--GBdq9",
+	"stickerBg": "Zoetrope-module--stickerBg--YiZZu",
+	"spin2": "Zoetrope-module--spin2--1Ziw_",
+	"stickerImg": "Zoetrope-module--stickerImg--15nc7",
 	"imgWrap": "Zoetrope-module--imgWrap--2zbKw",
 	"spin": "Zoetrope-module--spin--3K_h2",
 	"stars": "Zoetrope-module--stars--3a1yz",
@@ -3010,7 +3020,7 @@ var Accomodations = function Accomodations(_ref) {
     href: urls.map,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "at the base of the Brooklyn Bridge."), " The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America\u2019s first performace of Hamlet, and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America\u2019s first performace of Hamlet, and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.book,
     target: "_blank",
     rel: "noopener noreferrer"
@@ -3079,23 +3089,23 @@ var Boathouse = function Boathouse(_ref) {
     href: urls.boathouseMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Prospect Park Boathouse"), ", built in 1905, is on the National Register of Historic Places and is a New York City landmark. It stopped renting boats decades ago, was almost demolished, and after several renovations, it now houses New York\u2019s Audobon Center.  We like it for being a pretty place in nature that still feels like New York. And it\u2019s close enough to our home that we picnic there on summer weekends."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Getting there"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You\u2019re looking for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "Prospect Park Boathouse"), ", built in 1905, is a New York City landmark and a National Historic Place. It stopped renting boats decades ago, and was almost demolished. But after several renovations, it now houses New York\u2019s Audobon Center.  We like it for being a pretty place in nature that still feels like New York. And it\u2019s close enough to our home that we eat picnics there in the summer."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Getting there"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You\u2019re looking for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.parkEntranceMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "the entrance on the corner of Ocean Avenue and Lincoln Road,"), " in the middle of the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide transportation from the Beekman hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, just search for the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "the entrance"), " in the middle of the east side of the park, on the corner of Ocean Avenue and Lincoln Road. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide transportation from the Beekman hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.boathouseMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Prospect Park Boathouse & Audobon Center"), " in Brooklyn."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking a cab, ask for the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "search"), " for the Prospect Park Boathouse & Audobon Center in Brooklyn."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking a cab, ask for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.parkEntranceMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "entrance to Prospect Park"), " on the corner of Ocean Avenue and Lincoln Road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "On the subway, take a B or Q train to ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "the entrance"), " to Prospect Park on the corner of Ocean Avenue and Lincoln Road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "On the subway, take a B or Q train to ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.subwayMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Prospect Park."), " You can also take an A or C train to Franklin Avenue, then transfer to an S shuttle to Prospect Park."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you are unfamiliar with the subway, we really recommend taking a cab. The trains are unpredictable, especially on weekends, and it\u2019s easy to wind up at the wrong stop.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, "Prospect Park Station."), " You can also take an A or C train to Franklin Avenue, then transfer to an S shuttle to Prospect Park."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you are unfamiliar with the subway, we really recommend taking a cab. The trains are unpredictable, especially on weekends, and it\u2019s easy to wind up at the wrong stop.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "right"
   }));
 };
@@ -3142,7 +3152,7 @@ var Event = function Event() {
     alt: "Illustration of the number 19 surrounded by snakes"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "left"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The ceremony will be at The Prospect Park Boathouse, at 5:30 PM on October 19, 2019. Drinks, dinner and dancing will follow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Dress code is formal. Two notes about what to wear:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please choose your heels carefully, as the boathouse has cobbled floors."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please bring a layer for the October weather, as we hope for an outdoor ceremony."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The ceremony will be at The Prospect Park Boathouse, at 5:30 PM on October 19, 2019. Drinks, dinner and dancing will follow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The dress code is formal. Two notes about what to wear:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please choose your heels carefully, as the boathouse has cobbled floors."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please bring a layer for the October weather, as we hope for an outdoor ceremony."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "right"
   }));
 };
@@ -3497,7 +3507,7 @@ module.exports = __webpack_require__.p + "static/pomegranate-bb1735497ca47ab7bf4
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/zoetrope-edbb63f44a7ed9fee497f4550b047291.png";
+module.exports = __webpack_require__.p + "static/zoetrope-b0261337c2d8489c4c46a60aab015c0a.png";
 
 /***/ }),
 
