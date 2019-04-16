@@ -5676,7 +5676,6 @@ react_ga__WEBPACK_IMPORTED_MODULE_8__["default"].initialize('UA-137874975-1');
 
 if (typeof window !== 'undefined') {
   react_ga__WEBPACK_IMPORTED_MODULE_8__["default"].pageview(window.location.pathname + window.location.search);
-  console.log(react_ga__WEBPACK_IMPORTED_MODULE_8__["default"]);
 }
 
 function SEO(_ref) {
