@@ -5,9 +5,9 @@ import img from "../images/plant.png"
 
 const Boathouse = ({urls}) => (
   <section id="boathouse">
-    <img class="interstitial" src={img} alt="Illustration of a sapling against a starry sky"/> 
+    <img className="interstitial" src={img} alt="Illustration of a sapling against a starry sky"/> 
     <h2>The Boathouse</h2>
-    <div class="left">
+    <div>
       <p>Brooklyn&rsquo;s <a href={urls.boathouseMap} target="_blank" rel="noopener noreferrer">Prospect Park Boathouse</a>, built in 1905, is a New York City landmark and a National Historic Place. It stopped renting boats decades ago, and was almost demolished. But after several renovations, it now houses New York&rsquo;s Audobon Center.  We like it for being a pretty place in nature that still feels like New York. And it&rsquo;s close enough to our home that we eat picnics there in the summer.</p>
       <h3>Getting there</h3>
       <p>Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You&rsquo;re looking for <a href={urls.parkEntranceMap} target="_blank" rel="noopener noreferrer">the entrance</a> in the middle of the east side of the park, on the corner of Ocean Avenue and Lincoln Road. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road.</p>
@@ -17,9 +17,6 @@ const Boathouse = ({urls}) => (
       <p>If you&rsquo;re taking a cab, ask for <a href={urls.parkEntranceMap} target="_blank" rel="noopener noreferrer">the entrance</a> to Prospect Park on the corner of Ocean Avenue and Lincoln Road.</p>
       <p>On the subway, take a B or Q train to <a href={urls.subwayMap} target="_blank" rel="noopener noreferrer">Prospect Park Station.</a> You can also take an A or C train to Franklin Avenue, then transfer to an S shuttle to Prospect Park.</p>
       <p>If you are unfamiliar with the subway, we really recommend taking a cab. The trains are unpredictable, especially on weekends, and it&rsquo;s easy to wind up at the wrong stop.</p>
-    </div>
-    <div class="right">
-      
     </div>
   </section>
 )

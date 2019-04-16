@@ -16,7 +16,10 @@ import favicon192 from "../images/favicon/192.png";
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-137874975-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+if (typeof window !== 'undefined') {
+  ReactGA.pageview(window.location.pathname + window.location.search);
+  console.log(ReactGA)
+}
 
 
 function SEO({ description, lang, meta, keywords, title }) {
