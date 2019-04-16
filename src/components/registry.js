@@ -9,7 +9,7 @@ const Registry = ({urls}) => (
     <h2>Registry</h2>
     <div>
       <p>Your presence is plenty — but if you insist, we’ve registered via <a href={urls.zola} target="_blank" rel="noopener noreferrer">Zola.</a></p>
-      <p>Our shipping address, if you need it, is as follows: 275 7th Avenue #1705, New York, New York, 10001.</p>
+      <p>Our shipping address, if you need it, is 275 7th Avenue, Suite 1705, New York, New York, 10001.</p>
     </div>
   </section>
 )
