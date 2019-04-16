@@ -2908,7 +2908,9 @@ __webpack_require__.r(__webpack_exports__);
 var Intro = function Intro() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     id: "intro"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, "We\u2019re so excited you\u2019re here! We can\u2019t wait to celebrate with you as we open a new chapter in our life together.")));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "center"
+  }, "We\u2019re so excited you\u2019re here! We can\u2019t wait to celebrate with you as we start our next phase of life together.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Intro);
@@ -3338,7 +3340,9 @@ var Registry = function Registry(_ref) {
     href: urls.zola,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Zola.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Our shipping address, if you need it, is 80 Douglass Street, Brooklyn, New York, 11231.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, "Zola.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Our shipping address, if you need it, is as follows:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    class: "center"
+  }, "Jake Zien", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "275 7th Avenue #1705", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "New York, New York", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "10001")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     class: "right"
   }));
 };
