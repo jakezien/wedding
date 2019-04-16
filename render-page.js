@@ -5205,7 +5205,7 @@ var Intro = function Intro() {
     id: "intro"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "center"
-  }, "We\u2019re so excited you\u2019re here! We can\u2019t wait to celebrate with you as we start our next phase of life together.")));
+  }, "We\u2019re so excited you\u2019re here! We can\u2019t wait to celebrate with you as we start the next phase of our life together.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Intro);
