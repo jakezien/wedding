@@ -6,7 +6,7 @@ import img from "../images/beekman-b.png"
 const Accomodations = ({ urls }) => (
 
   <section id="accomodations">
-    <img className="interstitial" src={img} alt="Beekman hotel logo"/>
+    <img className="interstitial wide" src={img} alt="Beekman hotel logo"/>
     <h2>Accomodations</h2>
     <div>
       <p>We recommend the <a href={urls.hotel} target="_blank" rel="noopener noreferrer">The Beekman Hotel</a> in Manhattan, <a href={urls.map} target="_blank" rel="noopener noreferrer">located</a> at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America&rsquo;s first performace of Hamlet, and in 1766 was destroyed in riots over the Stamp Act.</p>
