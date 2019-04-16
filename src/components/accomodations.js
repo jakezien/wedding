@@ -9,7 +9,7 @@ const Accomodations = ({ urls }) => (
     <img className="interstitial wide" src={img} alt="Beekman Hotel logo"/>
     <h2>Accommodations</h2>
     <div>
-      <p>We recommend the <a href={urls.hotel} target="_blank" rel="noopener noreferrer">The Beekman Hotel</a> in Manhattan, <a href={urls.map} target="_blank" rel="noopener noreferrer">located</a> at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America&rsquo;s first performance of Hamlet, and in 1766 was destroyed in riots over the Stamp Act.</p>
+      <p>We recommend the <a href={urls.hotel} target="_blank" rel="noopener noreferrer">The Beekman Hotel</a> in Manhattan, <a href={urls.map} target="_blank" rel="noopener noreferrer">located</a> at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street Theatre, which in 1761 staged America&rsquo;s first performance of Hamlet, and in 1766 was destroyed in riots over the Stamp Act.</p>
       <p>We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can <a href={urls.book} target="_blank" rel="noopener noreferrer">book online</a> or by calling <a href='tel:8555233562'>855 523 3562</a> and mentioning our wedding.</p>
     </div>
   </section>
