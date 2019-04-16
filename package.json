@@ -16,6 +16,8 @@
     "gatsby-transformer-sharp": "^2.1.17",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-countdown-now": "^2.1.0",
+    "react-date-countdown": "^0.1.7",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
     "react-helmet": "^5.2.0"

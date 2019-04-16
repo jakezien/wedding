@@ -1,7 +1,5 @@
 import React from "react"
 import styles from "./Zoetrope.module.styl"
-import image from '../images/zoetrope.png'
-
 
 const Zoetrope = () => (
   <div>
