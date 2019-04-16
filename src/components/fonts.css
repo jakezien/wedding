@@ -1,32 +1,5 @@
-/* Webfont: Brewery-Light */
-@font-face {
-    font-family: 'Brewery';
-    src: url('../fonts/Brewery-Light.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Brewery-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/Brewery-Light.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/Brewery-Light.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/Brewery-Light.svg#Brewery-Light') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: 200;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Brewery-Regular */
-@font-face {
-    font-family: 'Brewery';
-    src: url('../fonts/Brewery-Regular.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Brewery-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/Brewery-Regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/Brewery-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/Brewery-Regular.svg#Brewery-Regular') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
-}
-
 /* Webfont: Brewery-Medium */
 @font-face {
-  
     font-family: 'Brewery';
     src: url('../fonts/Brewery-Medium.eot'); /* IE9 Compat Modes */
     src: url('../fonts/Brewery-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -37,55 +10,17 @@
     font-weight: 400;
     text-rendering: optimizeLegibility;
 }
-/* Webfont: Brewery-Bold */
-@font-face {
-    font-family: 'Brewery';
-    src: url('../fonts/Brewery-Bold.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Brewery-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/Brewery-Bold.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/Brewery-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/Brewery-Bold.svg#Brewery-Bold') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: 500;
-    text-rendering: optimizeLegibility;
-}
 
-/* Webfont: Brewery-ExtraBold */
+/* Webfont: Brewery-Medium-Italic */
 @font-face {
     font-family: 'Brewery';
-    src: url('../fonts/Brewery-ExtraBold.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Brewery-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/Brewery-ExtraBold.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/Brewery-ExtraBold.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/Brewery-ExtraBold.svg#Brewery-ExtraBold') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: 600;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Brewery-Heavy */
-@font-face {
-    font-family: 'Brewery';
-    src: url('../fonts/Brewery-Heavy.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Brewery-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/Brewery-Heavy.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/Brewery-Heavy.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/Brewery-Heavy.svg#Brewery-Heavy') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: BreweryNo2-Black */
-@font-face {
-    font-family: 'Brewery';
-    src: url('../fonts/Brewery-Black.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Brewery-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/Brewery-Black.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/Brewery-Black.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/Brewery-Black.svg#BreweryNo2-Black') format('svg'); /* Legacy iOS */
-    font-style: normal;
-    font-weight: 800;
+    src: url('../fonts/Brewery-MediumItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Brewery-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Brewery-MediumItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Brewery-MediumItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Brewery-MediumItalic.svg#Brewery-MediumItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
