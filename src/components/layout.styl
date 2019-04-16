@@ -1,3 +1,5 @@
+@import './variables.styl'
+
 section
   margin-bottom 2rem
   
@@ -5,3 +7,19 @@ section
   height 186px
   display block
   margin 6rem auto
+  
+ul li
+  list-style none
+  position relative
+  &:before
+    content ''
+    width .375em
+    height .375em
+    background annaRed
+    transform rotate(45deg)
+    position absolute
+    top .55em
+    left -1.2em
+
+.center
+  text-align center

@@ -13,7 +13,11 @@ const Zoetrope = () => (
       </div>
     </div>
     <div className={styles.divider}>
-      <div className={styles.sticker}></div>
+      <div className={styles.stickerBorder}></div>
+      <div className={styles.sticker}>
+        <div className={styles.stickerBg}></div>
+        <div className={styles.stickerImg}></div>
+      </div>
     </div>
   </div>
 )

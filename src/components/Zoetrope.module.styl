@@ -18,20 +18,48 @@
 
 .sticker
   position absolute
-  width 310px
-  height 310px
+  width 260px
+  height 260px
   left 50% 
   top 50%
-  transform translate(-50%, -45%)
+  transform translate(-50%, -50%)
+  border-radius 50%
+  overflow hidden
+  
+.stickerBorder
+  position absolute
+  width 300px
+  height 300px
+  left 50% 
+  top 50%
+  border-radius 50%
+  transform translate(-50%, -50%)
   background annaRed
   border 2px solid black
-  border-radius 50%
-       
+
+.stickerBg
+  background url('../images/stars.gif')
+  background-repeat repeat-x repeat-y
+  background-size auto 10vh
+  animation spin2 170s linear infinite
+  
+.stickerImg
+  background url('../images/plant-nobg.gif')
+  background-size 101%
+
+.imgWrap div, .sticker div
+  position absolute
+  width 100%
+  height 100%
+  top 0
+  left 0
+  background-position center center
+        
 .imgWrap
   position absolute
   width 500vw
   height 500vw
-  top 105%
+  top 102.5%
   left 50%
   transform translate(-50%, -50%)
   animation spin 170s linear infinite
@@ -44,16 +72,16 @@
 .stars
   background url('../images/stars.gif')
   background-repeat repeat-x repeat-y
-  background-size auto 6vh
+  background-size auto 10vh
   
 .zoetrope
-  background url('../images/zoetrope.png')
+  background url('../images/zoetrope-color.png')
   background-repeat no-repeat
   background-size 120vh
 
 @media only screen and (min-width: 768px)
-  .stars
-    background-size auto 6vh
+  .stars, .stickerBg
+    background-size auto 12vh
 
   .zoetrope
     background-size 130vh
@@ -64,3 +92,9 @@
     transform translate(-50%, -50%) rotate(360deg)
   100%
     transform translate(-50%, -50%) rotate(0deg)
+
+@keyframes spin2
+  0%
+    transform rotate(360deg)
+  100%
+    transform rotate(0deg)
