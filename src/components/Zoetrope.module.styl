@@ -18,20 +18,20 @@
 
 .sticker
   position absolute
-  width 260px
-  height 260px
+  width 27.5vh
+  height 27.5vh
   left 50% 
-  top 50%
+  top 40%
   transform translate(-50%, -50%)
   border-radius 50%
   overflow hidden
   
 .stickerBorder
   position absolute
-  width 300px
-  height 300px
+  width 30.5vh
+  height 30.5vh
   left 50% 
-  top 50%
+  top 40%
   border-radius 50%
   transform translate(-50%, -50%)
   background annaRed
@@ -63,11 +63,6 @@
   left 50%
   transform translate(-50%, -50%)
   animation spin 170s linear infinite
-  div
-    position absolute
-    width 100%
-    height 100%
-    background-position center center
     
 .stars
   background url('../images/stars.gif')
@@ -77,14 +72,7 @@
 .zoetrope
   background url('../images/zoetrope-color.png')
   background-repeat no-repeat
-  background-size 120vh
-
-@media only screen and (min-width: 768px)
-  .stars, .stickerBg
-    background-size auto 12vh
-
-  .zoetrope
-    background-size 130vh
+  background-size 140vh
 
 
 @keyframes spin
@@ -98,3 +86,12 @@
     transform rotate(360deg)
   100%
     transform rotate(0deg)
+
+
+
+@media only screen and (min-width: 768px)
+  .stars, .stickerBg
+    background-size auto 12vh
+
+  // .zoetrope
+    // background-size 130vh
