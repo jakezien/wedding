@@ -5312,7 +5312,7 @@ var Accomodations = function Accomodations(_ref) {
     href: urls.map,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America\u2019s first performance of Hamlet, and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street Theatre, which in 1761 staged America\u2019s first performance of Hamlet, and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.book,
     target: "_blank",
     rel: "noopener noreferrer"
