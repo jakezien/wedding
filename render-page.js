@@ -5312,7 +5312,7 @@ var Accomodations = function Accomodations(_ref) {
     href: urls.map,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street Theatre, which in 1761 staged America\u2019s first performance of ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Hamlet"), " and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with The Beekman, and we\u2019ll provide transportation from there to the wedding. To get the block rate, please reserve your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street Theatre, which staged America\u2019s first performance of ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Hamlet"), " in 1761, and was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with The Beekman, and we\u2019ll provide transportation from there to the wedding. To get the block rate, please reserve your room by September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.book,
     target: "_blank",
     rel: "noopener noreferrer"
@@ -5381,7 +5381,7 @@ var Boathouse = function Boathouse(_ref) {
     href: urls.parkEntranceMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "the entrance"), " on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a five-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide transportation from The Beekman Hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "the entrance"), " on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a five-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide a bus from The Beekman Hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.boathouseMap,
     target: "_blank",
     rel: "noopener noreferrer"
@@ -5436,7 +5436,11 @@ var Event = function Event() {
     className: "interstitial",
     src: _images_19_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "Illustration of the number 19 surrounded by snakes"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The ceremony will be at The Prospect Park Boathouse, at 5:30 p.m. on October 19, 2019. Drinks, dinner and dancing will follow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Kindly note that this is an adults-only evening."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The dress code is formal. Two notes about what to wear:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please choose your heels carefully, as the boathouse has cobbled floors."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please bring a layer for the October weather, as we hope for an outdoor ceremony."))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The Event"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The ceremony will be at The Prospect Park Boathouse, at 5:30 p.m. on October 19, 2019. Drinks, dinner and dancing will follow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Kindly note that this is an adults-only evening."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The dress code is formal. Two notes about what to wear:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please choose your heels carefully, as the boathouse has ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "noWrap"
+  }, "cobbled floors.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Please bring a layer for the October weather, as we hope for ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "noWrap"
+  }, "an outdoor ceremony.")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Event);
