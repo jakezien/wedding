@@ -11,8 +11,8 @@ const Event = () => (
       <p>Kindly note that this is an adults-only evening.</p>
       <p>The dress code is formal. Two notes about what to wear:</p>
         <ul>
-          <li>Please choose your heels carefully, as the boathouse has cobbled floors.</li>
-          <li>Please bring a layer for the October weather, as we hope for an outdoor ceremony.</li>
+          <li>Please choose your heels carefully, as the boathouse has <span className="noWrap">cobbled floors.</span></li>
+          <li>Please bring a layer for the October weather, as we hope for <span className="noWrap">an outdoor ceremony.</span></li>
         </ul>
     </div>
   </section>
