@@ -5162,7 +5162,7 @@ var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     id: _Footer_module_styl__WEBPACK_IMPORTED_MODULE_2___default.a.siteFooter
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "See you in ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countdown_now__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    date: "2019-10-19",
+    date: "2019-10-20",
     renderer: renderCountdown
   }), " days!")));
 };
@@ -5299,12 +5299,12 @@ __webpack_require__.r(__webpack_exports__);
 var Accomodations = function Accomodations(_ref) {
   var urls = _ref.urls;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    id: "accomodations"
+    id: "accommodations"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     className: "interstitial wide",
     src: _images_beekman_b_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    alt: "Beekman hotel logo"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Accomodations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We recommend the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    alt: "Beekman Hotel logo"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Accommodations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We recommend the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.hotel,
     target: "_blank",
     rel: "noopener noreferrer"
@@ -5312,7 +5312,7 @@ var Accomodations = function Accomodations(_ref) {
     href: urls.map,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America\u2019s first performace of Hamlet, and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street theater, which in 1761 staged America\u2019s first performance of Hamlet, and in 1766 was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with the Beekman, and will provide transportation from there to the wedding. To get the block rate, please book your room by Wednesday, September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.book,
     target: "_blank",
     rel: "noopener noreferrer"
@@ -5377,11 +5377,11 @@ var Boathouse = function Boathouse(_ref) {
     href: urls.boathouseMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Prospect Park Boathouse"), ", built in 1905, is a New York City landmark and a National Historic Place. It stopped renting boats decades ago, and was almost demolished. But after several renovations, it now houses New York\u2019s Audobon Center.  We like it for being a pretty place in nature that still feels like New York. And it\u2019s close enough to our home that we eat picnics there in the summer."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Getting there"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You\u2019re looking for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "Prospect Park Boathouse"), ", built in 1905, is a New York City landmark and a National Historic Place. It stopped renting boats decades ago, and was almost demolished. But now, after several renovations, it houses New York\u2019s Audubon Center.  We like it for being a pretty place in nature that still feels like New York. And it\u2019s close enough to our home that we eat picnics there in the summer."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Getting There"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter the park from the right place. You\u2019re looking for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.parkEntranceMap,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "the entrance"), " in the middle of the east side of the park, on the corner of Ocean Avenue and Lincoln Road. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a 5-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide transportation from the Beekman hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "the entrance"), " on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars can't enter the park, and the boathouse is a 5-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide transportation from the Beekman Hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: urls.boathouseMap,
     target: "_blank",
     rel: "noopener noreferrer"
@@ -5615,7 +5615,7 @@ var Registry = function Registry(_ref) {
     href: urls.zola,
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Zola.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Our shipping address, if you need it, is as follows: 275 7th Avenue #1705, New York, New York, 10001.")));
+  }, "Zola.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Our shipping address, if you need it, is 275 7th Avenue, Suite 1705, New York, New York, 10001.")));
 };
 
 Registry.propTypes = {
