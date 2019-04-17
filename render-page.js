@@ -5627,7 +5627,7 @@ Registry.propTypes = {
 };
 Registry.defaultProps = {
   urls: {
-    zola: ''
+    zola: 'https://www.zola.com/registry/ewingzienwedding'
   }
 };
 /* harmony default export */ __webpack_exports__["default"] = (Registry);
