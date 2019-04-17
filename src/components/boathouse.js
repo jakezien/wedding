@@ -8,7 +8,7 @@ const Boathouse = ({urls}) => (
     <img className="interstitial" src={img} alt="Illustration of a sapling against a starry sky"/> 
     <h2>The Boathouse</h2>
     <div>
-      <p>Brooklyn&rsquo;s <a href={urls.boathouseMap} target="_blank" rel="noopener noreferrer">Prospect Park Boathouse</a>, built in 1905, is a New York City landmark and on the National Registr of Historic Places. It stopped renting boats decades ago and was almost demolished. But now, after several renovations, it houses New York&rsquo;s Audubon Center.  We like it for being a pretty place in nature that still feels like New York. And it&rsquo;s close enough to our home that we eat picnics there in the summer.</p>
+      <p>Brooklyn&rsquo;s <a href={urls.boathouseMap} target="_blank" rel="noopener noreferrer">Prospect Park Boathouse</a>, built in 1905, is a New York City landmark and on the National Register of Historic Places. It stopped renting boats decades ago and was almost demolished. But now, after several renovations, it houses New York&rsquo;s Audubon Center.  We like it for being a pretty place in nature that still feels like New York. And it&rsquo;s close enough to our home that we eat picnics there in the summer.</p>
       <h3>Getting There</h3>
       <p>Prospect Park is bigger than Central Park, so please take care to enter from the correct place. You&rsquo;re looking for <a href={urls.parkEntranceMap} target="_blank" rel="noopener noreferrer">the entrance</a> on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a five-minute walk from the road.</p>
       <h3>Transportation</h3>
