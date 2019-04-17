@@ -369,7 +369,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"},{"componentChunkName":"component---src-pages-page-2-js","jsonName":"page-2-fbc","path":"/page-2/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-image-js":3138347921,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-js","jsonName":"index","path":"/"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-html-516","path":"/404.html"},{"componentChunkName":"component---src-pages-404-js","jsonName":"404-22d","path":"/404/"}],"dataPaths":{"404-22d":"820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8","404-html-516":"285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8","dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","page-2-fbc":"726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-image-js":3138347921,"sq--src-components-layout-js":755544856,"sq--src-components-seo-js":2417117884}};
 
 /***/ }),
 
@@ -988,8 +988,7 @@ var preferDefault = function preferDefault(m) {
 
 exports.components = {
   "component---src-pages-404-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/page-2.js */ "./src/pages/page-2.js")))
+  "component---src-pages-index-js": hot(preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")))
 };
 
 /***/ }),
@@ -5292,6 +5291,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _images_beekman_b_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/beekman-b.png */ "./src/images/beekman-b.png");
 /* harmony import */ var _images_beekman_b_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_beekman_b_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+
 
 
 
@@ -5304,20 +5305,21 @@ var Accomodations = function Accomodations(_ref) {
     className: "interstitial wide",
     src: _images_beekman_b_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "Beekman Hotel logo"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Accommodations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We recommend the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.hotel,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "The Beekman Hotel"), " in Manhattan, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.map,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street Theatre, which staged America\u2019s first performance of ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Hamlet"), " in 1761, and was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with The Beekman, and we\u2019ll provide transportation from there to the wedding. To get the block rate, please reserve your room by September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.book,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "book online"), " or by calling ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "tel:8555233562"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Accommodations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We recommend the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "hotel",
+    to: urls.hotel,
+    target: "_blank"
+  }, "The Beekman Hotel"), " in Manhattan, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "boathouseMap",
+    to: urls.map,
+    target: "_blank"
+  }, "located"), " at the base of the Brooklyn Bridge. The hotel was built in 1881 on the site of the Chapel Street Theatre, which staged America\u2019s first performance of ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", null, "Hamlet"), " in 1761, and was destroyed in riots over the Stamp Act."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We have reserved a room block with The Beekman, and we\u2019ll provide transportation from there to the wedding. To get the block rate, please reserve your room by September 18. You can ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "book",
+    to: urls.book,
+    target: "_blank"
+  }, "book online"), " or by calling ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "phone",
+    to: "tel:8555233562"
   }, "855 523 3562"), " and mentioning our wedding.")));
 };
 
@@ -5361,6 +5363,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _images_plant_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/plant.png */ "./src/images/plant.png");
 /* harmony import */ var _images_plant_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_plant_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+
 
 
 
@@ -5373,26 +5377,26 @@ var Boathouse = function Boathouse(_ref) {
     className: "interstitial",
     src: _images_plant_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "Illustration of a sapling against a starry sky"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "The Boathouse"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Brooklyn\u2019s ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.boathouseMap,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "Prospect Park Boathouse"), ", built in 1905, is a New York City landmark and on the National Register of Historic Places. It stopped renting boats decades ago and was almost demolished. But now, after several renovations, it houses New York\u2019s Audubon Center.  We like it for being a pretty place in nature that still feels like New York. And it\u2019s close enough to our home that we eat picnics there in the summer."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Getting There"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter from the correct place. You\u2019re looking for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.parkEntranceMap,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "the entrance"), " on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a five-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide a bus from The Beekman Hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.boathouseMap,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "search"), " for the Prospect Park Boathouse & Audubon Center in Brooklyn."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking a cab, ask for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.parkEntranceMap,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "the entrance"), " to Prospect Park on the corner of Ocean Avenue and Lincoln Road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "On the subway, take a B or Q train to ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.subwayMap,
-    target: "_blank",
-    rel: "noopener noreferrer"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "The Boathouse"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Brooklyn\u2019s ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "boathouseMap",
+    to: urls.boathouseMap,
+    target: "_blank"
+  }, "Prospect Park Boathouse"), ", built in 1905, is a New York City landmark and on the National Register of Historic Places. It stopped renting boats decades ago and was almost demolished. But now, after several renovations, it houses New York\u2019s Audubon Center.  We like it for being a pretty place in nature that still feels like New York. And it\u2019s close enough to our home that we eat picnics there in the summer."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Getting There"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Prospect Park is bigger than Central Park, so please take care to enter from the correct place. You\u2019re looking for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "parkEntranceMap",
+    to: urls.parkEntranceMap,
+    target: "_blank"
+  }, "the entrance"), " on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a five-minute walk from the road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Transportation"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We\u2019ll provide a bus from The Beekman Hotel to the boathouse."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking an Uber or Lyft, ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "boathouseMap2",
+    to: urls.boathouseMap,
+    target: "_blank"
+  }, "search"), " for the Prospect Park Boathouse & Audubon Center in Brooklyn."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you\u2019re taking a cab, ask for ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "parkEntranceMap2",
+    to: urls.parkEntranceMap,
+    target: "_blank"
+  }, "the entrance"), " to Prospect Park on the corner of Ocean Avenue and Lincoln Road."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "On the subway, take a B or Q train to ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "subwayMap",
+    to: urls.subwayMap,
+    target: "_blank"
   }, "Prospect Park Station."), " You can also take an A or C train to Franklin Avenue and then transfer to an S shuttle to Prospect Park."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you are unfamiliar with the subway, we really recommend taking a cab. The trains are unpredictable, especially on weekends, and it\u2019s easy to wind up at the wrong stop.")));
 };
 
@@ -5603,6 +5607,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _images_pomegranate_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/pomegranate.png */ "./src/images/pomegranate.png");
 /* harmony import */ var _images_pomegranate_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_pomegranate_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+
 
 
 
@@ -5615,10 +5621,10 @@ var Registry = function Registry(_ref) {
     className: "interstitial",
     src: _images_pomegranate_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "Illustration of a pomegranate"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Registry"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Your presence is plenty \u2014 but if you insist, we\u2019ve registered via ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: urls.zola,
-    target: "_blank",
-    rel: "noopener noreferrer"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Registry"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Your presence is plenty \u2014 but if you insist, we\u2019ve registered via ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+    eventLabel: "registry",
+    to: urls.zola,
+    target: "_blank"
   }, "Zola.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Our shipping address, if you need it, is 275 7th Avenue, Suite 1705, New York, New York, 10001.")));
 };
 
@@ -5657,9 +5663,11 @@ var _public_static_d_2417117884_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*
 /* harmony import */ var _images_favicon_16_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_favicon_16_png__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _images_favicon_32_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/favicon/32.png */ "./src/images/favicon/32.png");
 /* harmony import */ var _images_favicon_32_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_images_favicon_32_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _images_favicon_192_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/favicon/192.png */ "./src/images/favicon/192.png");
-/* harmony import */ var _images_favicon_192_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_favicon_192_png__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+/* harmony import */ var _images_favicon_64_gif__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/favicon/64.gif */ "./src/images/favicon/64.gif");
+/* harmony import */ var _images_favicon_64_gif__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_favicon_64_gif__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _images_favicon_192_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/favicon/192.png */ "./src/images/favicon/192.png");
+/* harmony import */ var _images_favicon_192_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_favicon_192_png__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 
 
 
@@ -5676,10 +5684,11 @@ var _public_static_d_2417117884_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*
 
 
 
-react_ga__WEBPACK_IMPORTED_MODULE_8__["default"].initialize('UA-137874975-1');
+
+react_ga__WEBPACK_IMPORTED_MODULE_9__["default"].initialize('UA-137874975-1');
 
 if (typeof window !== 'undefined') {
-  react_ga__WEBPACK_IMPORTED_MODULE_8__["default"].pageview(window.location.pathname + window.location.search);
+  react_ga__WEBPACK_IMPORTED_MODULE_9__["default"].pageview(window.location.pathname + window.location.search);
 }
 
 function SEO(_ref) {
@@ -5707,9 +5716,18 @@ function SEO(_ref) {
       sizes: "32x32",
       href: "" + _images_favicon_32_png__WEBPACK_IMPORTED_MODULE_6___default.a
     }, {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: "64x64",
+      href: "" + _images_favicon_64_gif__WEBPACK_IMPORTED_MODULE_7___default.a
+    }, {
       rel: 'shortcut icon',
       type: 'image/png',
-      href: "" + _images_favicon_192_png__WEBPACK_IMPORTED_MODULE_7___default.a
+      href: "" + _images_favicon_192_png__WEBPACK_IMPORTED_MODULE_8___default.a
+    }, {
+      rel: 'apple-touch-icon',
+      type: 'image/png',
+      href: "" + _images_favicon_192_png__WEBPACK_IMPORTED_MODULE_8___default.a
     }],
     meta: [{
       name: "description",
@@ -5824,6 +5842,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABz
 
 /***/ }),
 
+/***/ "./src/images/favicon/64.gif":
+/*!***********************************!*\
+  !*** ./src/images/favicon/64.gif ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/gif;base64,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"
+
+/***/ }),
+
 /***/ "./src/images/plant.png":
 /*!******************************!*\
   !*** ./src/images/plant.png ***!
@@ -5864,9 +5893,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var NotFoundPage = function NotFoundPage() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("html", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "404: Not found"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "NOT FOUND"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "You just hit a route that doesn't exist... the sadness."));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "404"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NotFoundPage);
@@ -5908,42 +5937,6 @@ var IndexPage = function IndexPage() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (IndexPage);
-
-/***/ }),
-
-/***/ "./src/pages/page-2.js":
-/*!*****************************!*\
-  !*** ./src/pages/page-2.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
-
-
-
-
-
-var SecondPage = function SecondPage() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "Page two"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Hi from the second page"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Welcome to page 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      maxWidth: "300px",
-      marginBottom: "1.45rem"
-    }
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/"
-  }, "Go back to the homepage"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SecondPage);
 
 /***/ }),
 
