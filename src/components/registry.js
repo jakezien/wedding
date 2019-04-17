@@ -20,7 +20,7 @@ Registry.propTypes = {
 
 Registry.defaultProps = {
   urls: {
-    zola: ''
+    zola: 'https://www.zola.com/registry/ewingzienwedding'
   }
 }
 
