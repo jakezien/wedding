@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import favicon16 from "../images/favicon/16.png";
 import favicon32 from "../images/favicon/32.png";
+import favicon64 from "../images/favicon/64.gif";
 import favicon192 from "../images/favicon/192.png";
 
 import ReactGA from 'react-ga';
@@ -48,7 +49,9 @@ function SEO({ description, lang, meta, keywords, title }) {
       link={[
         { rel: 'icon', type: 'image/png', sizes: "16x16", href: `${favicon16}` },
         { rel: 'icon', type: 'image/png', sizes: "32x32", href: `${favicon32}` },
+        { rel: 'icon', type: 'image/png', sizes: "64x64", href: `${favicon64}` },
         { rel: 'shortcut icon', type: 'image/png', href: `${favicon192}` },
+        { rel: 'apple-touch-icon', type: 'image/png', href: `${favicon192}` },
         ]}
       meta={[
         {

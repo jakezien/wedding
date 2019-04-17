@@ -1,6 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import img from "../images/plant.png"
+import ReactGA from 'react-ga';
 
 
 const Boathouse = ({urls}) => (
@@ -8,14 +9,14 @@ const Boathouse = ({urls}) => (
     <img className="interstitial" src={img} alt="Illustration of a sapling against a starry sky"/> 
     <h2>The Boathouse</h2>
     <div>
-      <p>Brooklyn&rsquo;s <a href={urls.boathouseMap} target="_blank" rel="noopener noreferrer">Prospect Park Boathouse</a>, built in 1905, is a New York City landmark and on the National Register of Historic Places. It stopped renting boats decades ago and was almost demolished. But now, after several renovations, it houses New York&rsquo;s Audubon Center.  We like it for being a pretty place in nature that still feels like New York. And it&rsquo;s close enough to our home that we eat picnics there in the summer.</p>
+      <p>Brooklyn&rsquo;s <ReactGA.OutboundLink eventLabel="boathouseMap" to={urls.boathouseMap} target="_blank">Prospect Park Boathouse</ReactGA.OutboundLink>, built in 1905, is a New York City landmark and on the National Register of Historic Places. It stopped renting boats decades ago and was almost demolished. But now, after several renovations, it houses New York&rsquo;s Audubon Center.  We like it for being a pretty place in nature that still feels like New York. And it&rsquo;s close enough to our home that we eat picnics there in the summer.</p>
       <h3>Getting There</h3>
-      <p>Prospect Park is bigger than Central Park, so please take care to enter from the correct place. You&rsquo;re looking for <a href={urls.parkEntranceMap} target="_blank" rel="noopener noreferrer">the entrance</a> on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a five-minute walk from the road.</p>
+      <p>Prospect Park is bigger than Central Park, so please take care to enter from the correct place. You&rsquo;re looking for <ReactGA.OutboundLink eventLabel="parkEntranceMap" to={urls.parkEntranceMap} target="_blank">the entrance</ReactGA.OutboundLink> on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a five-minute walk from the road.</p>
       <h3>Transportation</h3>
       <p>We&rsquo;ll provide a bus from The Beekman Hotel to the boathouse.</p>
-      <p>If you&rsquo;re taking an Uber or Lyft, <a href={urls.boathouseMap} target="_blank" rel="noopener noreferrer">search</a> for the Prospect Park Boathouse & Audubon Center in Brooklyn.</p>
-      <p>If you&rsquo;re taking a cab, ask for <a href={urls.parkEntranceMap} target="_blank" rel="noopener noreferrer">the entrance</a> to Prospect Park on the corner of Ocean Avenue and Lincoln Road.</p>
-      <p>On the subway, take a B or Q train to <a href={urls.subwayMap} target="_blank" rel="noopener noreferrer">Prospect Park Station.</a> You can also take an A or C train to Franklin Avenue and then transfer to an S shuttle to Prospect Park.</p>
+      <p>If you&rsquo;re taking an Uber or Lyft, <ReactGA.OutboundLink eventLabel="boathouseMap2" to={urls.boathouseMap} target="_blank">search</ReactGA.OutboundLink> for the Prospect Park Boathouse & Audubon Center in Brooklyn.</p>
+      <p>If you&rsquo;re taking a cab, ask for <ReactGA.OutboundLink eventLabel="parkEntranceMap2" to={urls.parkEntranceMap} target="_blank">the entrance</ReactGA.OutboundLink> to Prospect Park on the corner of Ocean Avenue and Lincoln Road.</p>
+      <p>On the subway, take a B or Q train to <ReactGA.OutboundLink eventLabel="subwayMap" to={urls.subwayMap} target="_blank">Prospect Park Station.</ReactGA.OutboundLink> You can also take an A or C train to Franklin Avenue and then transfer to an S shuttle to Prospect Park.</p>
       <p>If you are unfamiliar with the subway, we really recommend taking a cab. The trains are unpredictable, especially on weekends, and it&rsquo;s easy to wind up at the wrong stop.</p>
     </div>
   </section>
