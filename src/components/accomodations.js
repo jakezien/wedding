@@ -24,7 +24,7 @@ Accomodations.defaultProps = {
   urls: {
     hotel: "http://www.beekmanhotel.com/",
     map: "https://www.google.com/maps/place/The+Beekman+Hotel/@40.7110318,-74.0090716,17z/data=!4m8!1m2!3m1!2sThe+Beekman+Hotel!3m4!1s0x0:0xb5e727f9cc73002a!8m2!3d40.7110277!4d-74.0068828",
-    book: "/book"
+    book: "http://www.annaandjake.love/book"
   }
 }
 
