@@ -6,6 +6,7 @@ module.exports = {
   },
   // pathPrefix: "/wedding",
   plugins: [
+    `gatsby-plugin-favicon`,
     `gatsby-plugin-stylus`,
     `gatsby-plugin-react-helmet`,
     {
