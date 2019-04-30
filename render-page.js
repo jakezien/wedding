@@ -9402,7 +9402,9 @@ var Registry = function Registry(_ref) {
     eventLabel: "registry",
     to: urls.zola,
     target: "_blank"
-  }, "Zola.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Our shipping address, if you need it, is 275 7th Avenue, Suite 1705, New York, New York, 10001.")));
+  }, "Zola.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Our shipping address, if you need it, is as follows:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    class: "center"
+  }, "Jake Zien", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "275 7th Avenue", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Suite 1705", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "New York, New York 10001")));
 };
 
 Registry.propTypes = {
