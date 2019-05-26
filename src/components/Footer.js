@@ -10,8 +10,10 @@ const renderCountdown = ({days}) => {
 
 const Footer = () => (
   <footer id={styles.siteFooter}>
-    <Container>
-      <p>See you in <Countdown date="2019-10-20" renderer={renderCountdown} /> days!</p>
+    <Container className={styles.container}>
+      <h3>See you in</h3>
+      <Countdown date="2019-10-20" renderer={renderCountdown} />  
+      <h3>d a y s</h3>
     </Container>
   </footer>
 )
