@@ -10,10 +10,11 @@ const Boathouse = ({urls}) => (
     <h2>The Boathouse</h2>
     <div>
       <p>Brooklyn&rsquo;s <ReactGA.OutboundLink eventLabel="boathouseMap" to={urls.boathouseMap} target="_blank">Prospect Park Boathouse</ReactGA.OutboundLink>, built in 1905, is a New York City landmark and on the National Register of Historic Places. It stopped renting boats decades ago and was almost demolished. But now, after several renovations, it houses New York&rsquo;s Audubon Center.  We like it for being a pretty place in nature that still feels like New York. And it&rsquo;s close enough to our home that we eat picnics there in the summer.</p>
-      <h3>Getting There</h3>
-      <p>Prospect Park is bigger than Central Park, so please take care to enter from the correct place. You&rsquo;re looking for <ReactGA.OutboundLink eventLabel="parkEntranceMap" to={urls.parkEntranceMap} target="_blank">the entrance</ReactGA.OutboundLink> on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Please leave extra time to find the location. Cars cannot enter the park, and the boathouse is a five-minute walk from the road.</p>
-      <h3>Transportation</h3>
-      <p>We&rsquo;ll provide a bus from The Beekman Hotel to the boathouse.</p>
+      <h3>G e t t i n g&nbsp;&nbsp;&nbsp;&nbsp;T h e r e</h3>
+      <p>You&rsquo;re looking for <ReactGA.OutboundLink eventLabel="parkEntranceMap" to={urls.parkEntranceMap} target="_blank">the entrance</ReactGA.OutboundLink> on the corner of Ocean Avenue and Lincoln Road, on the east side of the park. Cars cannot enter the park, and the boathouse is a five-minute walk from the road.</p>
+      <p><strong>Please</strong> take care to enter the park from the correct place. If you do not, you will likely miss the ceremony — Prospect Park is bigger than Central Park, and the boathouse is at least half an hour's walk from any other entrance. Please leave extra time to handle traffic and find the location. We recommend no less than hour from anywhere in New York.</p>
+      <h3>T r a n s p o r t a t i o n</h3>
+      <p>We&rsquo;ll provide a bus for all our guests at the The Beekman Hotel.</p>
       <p>If you&rsquo;re taking an Uber or Lyft, <ReactGA.OutboundLink eventLabel="boathouseMap2" to={urls.boathouseMap} target="_blank">search</ReactGA.OutboundLink> for the Prospect Park Boathouse & Audubon Center in Brooklyn.</p>
       <p>If you&rsquo;re taking a cab, ask for <ReactGA.OutboundLink eventLabel="parkEntranceMap2" to={urls.parkEntranceMap} target="_blank">the entrance</ReactGA.OutboundLink> to Prospect Park on the corner of Ocean Avenue and Lincoln Road.</p>
       <p>On the subway, take a B or Q train to <ReactGA.OutboundLink eventLabel="subwayMap" to={urls.subwayMap} target="_blank">Prospect Park Station.</ReactGA.OutboundLink> You can also take an A or C train to Franklin Avenue and then transfer to an S shuttle to Prospect Park.</p>

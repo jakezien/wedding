@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Container>{children}</Container>
+        <Container id="pageContainer">{children}</Container>
         <Footer />
       </>
     )}

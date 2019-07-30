@@ -11,7 +11,7 @@ const renderCountdown = ({days}) => {
 const Footer = () => (
   <footer id={styles.siteFooter}>
     <Container>
-      <p>See you in <Countdown date="2019-10-20" renderer={renderCountdown} /> days!</p>
+      <p class={styles.footerText}><h2><Countdown date="2019-10-20" renderer={renderCountdown} /> days!</h2></p>
     </Container>
   </footer>
 )
