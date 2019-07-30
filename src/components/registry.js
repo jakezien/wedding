@@ -6,7 +6,7 @@ import ReactGA from 'react-ga';
 const Registry = ({urls}) => (
   <section id="registry">
     <img className="interstitial" src={img} alt="Illustration of a pomegranate"/>
-    <h2>Registry</h2>
+    <h2>R e g i s t r y</h2>
     <div>
       <p>Your presence is plenty — but if you insist, we’ve registered via <ReactGA.OutboundLink eventLabel="registry" to={urls.zola} target="_blank">Zola.</ReactGA.OutboundLink></p>
       <p>Our shipping address, if you need it, is as follows:</p>
