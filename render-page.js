@@ -9097,7 +9097,7 @@ var Accomodations = function Accomodations(_ref) {
     eventLabel: "book",
     to: urls.book,
     target: "_blank"
-  }, "book online"), " or by calling ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
+  }, "book online with us"), " or by calling ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_ga__WEBPACK_IMPORTED_MODULE_3__["default"].OutboundLink, {
     eventLabel: "phone",
     to: "tel:8555233562"
   }, "855 523 3562"), " and mentioning our wedding.")));
