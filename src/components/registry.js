@@ -10,7 +10,7 @@ const Registry = ({urls}) => (
     <div>
       <p>Your presence is plenty — but if you insist, we’ve registered via <ReactGA.OutboundLink eventLabel="registry" to={urls.zola} target="_blank">Zola.</ReactGA.OutboundLink></p>
       <p>Our shipping address, if you need it, is as follows:</p>
-      <p class="center">Jake Zien<br/>275 7th Avenue<br/>Suite 1705<br/>New York, New York 10001</p>
+      <p className="center">Jake Zien<br/>275 7th Avenue<br/>Suite 1705<br/>New York, New York 10001</p>
     </div>
   </section>
 )
