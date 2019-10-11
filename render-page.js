@@ -9401,9 +9401,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var renderCountdown = function renderCountdown(_ref) {
   var days = _ref.days;
+  var content = '';
+  if (days > 1) content = days + ' days!';else if (days === 1) content = 'Tomorrow!';else if (days === 0) content = 'Today’s the day!';else if (days < 0) content = '';
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: _Footer_module_styl__WEBPACK_IMPORTED_MODULE_2___default.a.countdown
-  }, days);
+  }, content);
 };
 
 var Footer = function Footer() {
@@ -9414,7 +9416,7 @@ var Footer = function Footer() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countdown_now__WEBPACK_IMPORTED_MODULE_3__["default"], {
     date: "2019-10-20",
     renderer: renderCountdown
-  }), " days!")));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
