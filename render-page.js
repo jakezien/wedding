@@ -9409,6 +9409,7 @@ var renderCountdown = function renderCountdown(_ref) {
 };
 
 var Footer = function Footer() {
+return;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     id: _Footer_module_styl__WEBPACK_IMPORTED_MODULE_2___default.a.siteFooter
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
